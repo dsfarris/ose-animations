@@ -1,0 +1,143 @@
+"""Physical attacks: OSE weapons, natural attacks and monster specials.
+
+Each row: (autorec label, D&D5e Animations source "menu:Label" or spec dict, group)
+
+Labels are matched by Automated Animations against the item name with case and spaces
+ignored, longest label first. So "Short Sword" also covers "Shortsword" and "short sword",
+and "Dagger" covers "Silver dagger".
+
+Spec dict keys are the same as in spell_map.py, plus:
+  menu    force the output menu (melee/range/ontoken)
+  switch  for melee entries, a range-menu label whose projectile is used when the target is
+          out of reach (thrown weapons)
+"""
+
+A = [
+    # ---------------- Weapons (OSE equipment list and common extras) ----------------
+    ("Battle Axe", "melee:Greataxe", "Weapon"),
+    ("Axe", "melee:Axe", "Weapon"),
+    ("Hand Axe", "melee:Handaxe", "Weapon"),
+    ("Club", "melee:Club", "Weapon"),
+    ("Spiked Club", "melee:Greatclub", "Weapon"),
+    ("Dagger", "melee:Dagger", "Weapon"),
+    ("Knife", "melee:Knife", "Weapon"),
+    ("Sword", "melee:Sword", "Weapon"),
+    ("Short Sword", "melee:Shortsword", "Weapon"),
+    ("Longsword", "melee:Longsword", "Weapon"),
+    ("Bastard Sword", "melee:Longsword", "Weapon"),
+    ("Two-Handed Sword", "melee:Greatsword", "Weapon"),
+    ("Scimitar", "melee:Scimitar", "Weapon"),
+    ("Rapier", "melee:Rapier", "Weapon"),
+    ("Mace", "melee:Mace", "Weapon"),
+    ("Morning Star", "melee:Morningstar", "Weapon"),
+    ("Flail", "melee:Flail", "Weapon"),
+    ("War Hammer", "melee:Warhammer", "Weapon"),
+    ("Hammer", "melee:Hammer", "Weapon"),
+    ("Maul", "melee:Maul", "Weapon"),
+    ("Halberd", "melee:Halberd", "Weapon"),
+    ("Polearm", "melee:Glaive", "Weapon"),
+    ("Pike", "melee:Pike", "Weapon"),
+    ("Lance", "melee:Lance", "Weapon"),
+    ("Spear", "melee:Spear", "Weapon"),
+    ("Trident", "melee:Trident", "Weapon"),
+    ("Staff", "melee:Quarterstaff", "Weapon"),
+    ("Pick", "melee:War Pick", "Weapon"),
+    ("Scythe", "melee:Scythe", "Weapon"),
+    ("Sickle", "melee:Sickle", "Weapon"),
+    ("Whip", "melee:Whip", "Weapon"),
+    ("Torch", {"src": "melee:Club", "tint": "#ff8a2a"}, "Weapon"),
+    ("Weapon", "melee:Strike", "Weapon"),
+    ("Giant Weapon", "melee:Greatclub", "Weapon"),
+    ("Long Bow", "range:Longbow", "Weapon"),
+    ("Short Bow", "range:Shortbow", "Weapon"),
+    ("Bow", "range:Bow", "Weapon"),
+    ("Arrow", "range:Bow", "Weapon"),
+    ("Crossbow", "range:Crossbow", "Weapon"),
+    ("Sling", "range:Sling", "Weapon"),
+    ("Javelin", "range:Javelin", "Weapon"),
+    ("Dart", "range:Dart", "Weapon"),
+    ("Holy Water", "range:Holy Water", "Weapon"),
+    ("Oil Flask", "range:Alchemist's", "Weapon"),
+    ("Thrown Rock", "range:Rock", "Weapon"),
+    ("Hurled Object", "range:Rock", "Weapon"),
+    ("Rock", "range:Rock", "Weapon"),
+    ("Boulder", "range:Boulder", "Weapon"),
+
+    # ---------------- Unarmed ----------------
+    ("Unarmed Strike", "melee:Unarmed Strike", "Unarmed"),
+    ("Punch", "melee:Punch", "Unarmed"),
+    ("Fist", "melee:Fist", "Unarmed"),
+    ("Blow", "melee:Punch", "Unarmed"),
+    ("Clubbing", "melee:Slam", "Unarmed"),
+    ("Slam", "melee:Slam", "Unarmed"),
+    ("Kick", "melee:Stomp", "Unarmed"),
+    ("Grab", "melee:Grapple", "Unarmed"),
+    ("Grasp", "melee:Grapple", "Unarmed"),
+    ("Squeeze", "ontoken:Constrict", "Unarmed"),
+    ("Constrict", "ontoken:Constrict", "Unarmed"),
+    ("Throttling", "ontoken:Constrict", "Unarmed"),
+    ("Smother", "ontoken:Constrict", "Unarmed"),
+
+    # ---------------- Natural attacks ----------------
+    ("Bite", "ontoken:Bite", "Natural"),
+    ("Claw", "melee:Claw", "Natural"),
+    ("Talon", "melee:Talon", "Natural"),
+    ("Beak", "melee:Beak", "Natural"),
+    ("Gore", "melee:Gore", "Natural"),
+    ("Horn", "melee:Horn", "Natural"),
+    ("Antlers", "melee:Horn", "Natural"),
+    ("Tusk", "melee:Tusk", "Natural"),
+    ("Butt", "melee:Ram", "Natural"),
+    ("Ram", "melee:Ram", "Natural"),
+    ("Hoof", "melee:Hoof", "Natural"),
+    ("Flaming Hoof", {"src": "melee:Hoof", "tint": "#ff6a00"}, "Natural"),
+    ("Trample", "melee:Trample", "Natural"),
+    ("Stomp", "melee:Stomp", "Natural"),
+    ("Tail", "melee:Tail", "Natural"),
+    ("Sting", "melee:Sting", "Natural"),
+    ("Pincer", "melee:Pincer", "Natural"),
+    ("Mandibles", "melee:Pincer", "Natural"),
+    ("Pseudopod", "melee:Pseudopod", "Natural"),
+    ("Tentacle", "ontoken:Tentacle", "Natural"),
+    ("Feeler", "ontoken:Tentacle", "Natural"),
+    ("Tongue", "ontoken:Tongue", "Natural"),
+    ("Snout", "melee:Gore", "Natural"),
+    ("Spine", "melee:Spike", "Natural"),
+    ("Wing", "melee:Wing", "Natural"),
+    ("Rake", "melee:Rake", "Natural"),
+    ("Drop", "melee:Slam", "Natural"),
+    ("Swallow", "ontoken:Swallow", "Natural"),
+    ("Touch", "ontoken:Touch", "Natural"),
+    ("Sucker", "ontoken:Bite", "Natural"),
+    ("Worm", "ontoken:Bite", "Natural"),
+    ("Roots", "ontoken:Grasping Vine", "Natural"),
+
+    # ---------------- Monster specials ----------------
+    ("Breath", {"src": "templatefx:Breath Weapon", "area": 30}, "Special"),
+    ("Breath (Fire)", {"src": "templatefx:Breath Weapon (Fire)", "area": 30}, "Special"),
+    ("Breath (Cold)", {"src": "templatefx:Breath Weapon (Cold)", "area": 30}, "Special"),
+    ("Breath (Lightning)", {"src": "templatefx:Breath Weapon (Lightning)", "area": 60}, "Special"),
+    ("Breath (Acid)", {"src": "templatefx:Breath Weapon (Acid)", "area": 60}, "Special"),
+    ("Breath (Poison)", {"src": "templatefx:Breath Weapon (Poison)", "area": 30}, "Special"),
+    ("Acid Squirt", "range:Spittle", "Special"),
+    ("Acid Spit", "range:Spittle", "Special"),
+    ("Spit", "range:Spittle", "Special"),
+    ("Oil Spray", "range:Stench Spray", "Special"),
+    ("Spray", "range:Stench Spray", "Special"),
+    ("Spores", {"src": "templatefx:Stinking Cloud", "area": 10}, "Special"),
+    ("Swarm", "ontoken:Cloud of Insects", "Special"),
+    ("Eye Rays", "range:Ray", "Special"),
+    ("Gaze", "ontoken:Gaze", "Special"),
+    ("Lightning", "range:Lightning Strike", "Special"),
+    ("Magma Jet", "range:Fire Bolt", "Special"),
+    ("Crystal Disc", "range:Chakram", "Special"),
+    ("Song", "ontoken:Enthrall", "Special"),
+    ("Voice", "ontoken:Enthrall", "Special"),
+    ("Charm", "ontoken:Charm", "Special"),
+]
+
+# Extra labels for the same entries. Matching ignores case and spaces (so "Long Bow" already
+# covers "Longbow") and finds labels inside longer names ("Fist" covers "Fists"), but not punctuation.
+ALIASES = {
+    "Two-Handed Sword": ["Two Handed Sword", "Greatsword"],
+}

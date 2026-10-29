@@ -1,0 +1,760 @@
+{
+ "areas": {
+  "Bless": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Blight": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Continual Light": {
+   "shape": "circle",
+   "r": 30
+  },
+  "Continual Darkness": {
+   "shape": "circle",
+   "r": 30
+  },
+  "Light": {
+   "shape": "circle",
+   "r": 15
+  },
+  "Darkness": {
+   "shape": "circle",
+   "r": 15
+  },
+  "Silence 15' Radius": {
+   "shape": "circle",
+   "r": 15
+  },
+  "Protection from Evil 10' Radius": {
+   "shape": "circle",
+   "r": 10,
+   "at": "caster"
+  },
+  "Insect Plague": {
+   "shape": "circle",
+   "r": 30
+  },
+  "Entangle": {
+   "shape": "circle",
+   "r": 20
+  },
+  "Obscuring Mist": {
+   "shape": "circle",
+   "r": 20,
+   "at": "caster",
+   "note": "10' per caster level; 20' shown"
+  },
+  "Call Lightning": {
+   "shape": "circle",
+   "r": 10
+  },
+  "Growth of Nature": {
+   "shape": "circle",
+   "r": 30,
+   "note": "up to 3,000 sq ft"
+  },
+  "Temperature Control": {
+   "shape": "circle",
+   "r": 10,
+   "at": "caster"
+  },
+  "Transmute Rock to Mud": {
+   "shape": "circle",
+   "r": 30,
+   "note": "up to 3,000 sq ft"
+  },
+  "Transmute Mud to Rock": {
+   "shape": "circle",
+   "r": 30,
+   "note": "up to 3,000 sq ft"
+  },
+  "Wall of Thorns": {
+   "shape": "line",
+   "length": 60,
+   "width": 10,
+   "note": "up to 1,200 sq ft"
+  },
+  "Colour Spray": {
+   "shape": "cone",
+   "length": 20,
+   "width": 20
+  },
+  "Wall of Fog": {
+   "shape": "rect",
+   "side": 20,
+   "note": "10' cube per caster level"
+  },
+  "Hypnotic Pattern": {
+   "shape": "rect",
+   "side": 30,
+   "at": "caster"
+  },
+  "Blacklight": {
+   "shape": "circle",
+   "r": 15
+  },
+  "Dispel Illusion": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Fear": {
+   "shape": "cone",
+   "length": 60,
+   "width": 30
+  },
+  "Hallucinatory Terrain": {
+   "shape": "circle",
+   "r": 30
+  },
+  "Invisibility 10' Radius": {
+   "shape": "circle",
+   "r": 10
+  },
+  "Paralysation": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Spectral Force": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Emotion": {
+   "shape": "rect",
+   "side": 40
+  },
+  "Massmorph": {
+   "shape": "circle",
+   "r": 120
+  },
+  "Rainbow Pattern": {
+   "shape": "rect",
+   "side": 30,
+   "at": "caster"
+  },
+  "Solid Fog": {
+   "shape": "rect",
+   "side": 20,
+   "note": "10' cube per caster level"
+  },
+  "Veil of Abandonment": {
+   "shape": "circle",
+   "r": 30
+  },
+  "Chaos": {
+   "shape": "circle",
+   "r": 30
+  },
+  "Illusion": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Improved Phantasmal Force": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Acid Fog": {
+   "shape": "rect",
+   "side": 20,
+   "note": "10' cube per caster level"
+  },
+  "Permanent Illusion": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Triggered Illusion": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Web": {
+   "shape": "rect",
+   "side": 10
+  },
+  "Fire Ball": {
+   "shape": "circle",
+   "r": 20
+  },
+  "Haste": {
+   "shape": "circle",
+   "r": 30
+  },
+  "Lightning Bolt": {
+   "shape": "line",
+   "length": 60,
+   "width": 5
+  },
+  "Confusion": {
+   "shape": "circle",
+   "r": 30
+  },
+  "Dispel Magic": {
+   "shape": "rect",
+   "side": 20
+  },
+  "Growth of Plants": {
+   "shape": "circle",
+   "r": 30,
+   "note": "up to 3,000 sq ft"
+  },
+  "Wall of Fire": {
+   "shape": "line",
+   "length": 60,
+   "width": 5,
+   "note": "up to 1,200 sq ft"
+  },
+  "Wall of Ice": {
+   "shape": "line",
+   "length": 60,
+   "width": 5,
+   "note": "up to 1,200 sq ft"
+  },
+  "Cloudkill": {
+   "shape": "circle",
+   "r": 15
+  },
+  "Pass-Wall": {
+   "shape": "circle",
+   "r": 2.5
+  },
+  "Wall of Stone": {
+   "shape": "line",
+   "length": 50,
+   "width": 5,
+   "note": "1,000 cubic ft"
+  },
+  "Anti-Magic Shell": {
+   "shape": "circle",
+   "r": 10,
+   "at": "caster"
+  },
+  "Death Spell": {
+   "shape": "rect",
+   "side": 60
+  },
+  "Lower Water": {
+   "shape": "circle",
+   "r": 50,
+   "note": "up to 10,000 sq ft"
+  },
+  "Part Water": {
+   "shape": "line",
+   "length": 120,
+   "width": 10
+  },
+  "Protection from Evil 10’ Radius": {
+   "shape": "circle",
+   "r": 10,
+   "at": "caster"
+  },
+  "Silence 15’ Radius": {
+   "shape": "circle",
+   "r": 15
+  },
+  "Invisibility 10’ Radius": {
+   "shape": "circle",
+   "r": 10
+  },
+  "Color Spray": {
+   "shape": "cone",
+   "length": 20,
+   "width": 20
+  },
+  "Passwall": {
+   "shape": "circle",
+   "r": 2.5
+  }
+ },
+ "resolve": {
+  "Fire Ball": {
+   "save": "spell",
+   "damage": "(@level)d6",
+   "onSave": "half",
+   "type": "fire"
+  },
+  "Lightning Bolt": {
+   "save": "spell",
+   "damage": "(@level)d6",
+   "onSave": "half",
+   "type": "lightning"
+  },
+  "Call Lightning": {
+   "save": "spell",
+   "damage": "8d6",
+   "onSave": "half",
+   "type": "lightning"
+  },
+  "Wall of Thorns": {
+   "damage": "1d8 + @ac",
+   "perTarget": true,
+   "effect": "caught where the wall appears"
+  },
+  "Death Spell": {
+   "save": "death",
+   "onFail": "die",
+   "hdPool": "4d8",
+   "effect": "dies"
+  },
+  "Cloudkill": {
+   "save": "death",
+   "damage": "1",
+   "onFail": "die",
+   "maxHD": 5,
+   "effect": "dies (under 5 HD)",
+   "type": "poison"
+  },
+  "Fear": {
+   "save": "spell",
+   "effect": "flees for 1 round per caster level",
+   "status": "fear"
+  },
+  "Entangle": {
+   "save": "spell",
+   "effect": "entangled (on a save: half movement through the area)",
+   "status": "restrain"
+  },
+  "Hypnotic Pattern": {
+   "save": "spell",
+   "effect": "hypnotised",
+   "status": "stun"
+  },
+  "Rainbow Pattern": {
+   "save": "spell",
+   "effect": "hypnotised",
+   "status": "stun"
+  },
+  "Paralysation": {
+   "save": "spell",
+   "effect": "paralysed",
+   "status": "paralysis"
+  },
+  "Emotion": {
+   "save": "spell",
+   "effect": "afflicted by the chosen emotion"
+  },
+  "Blight": {
+   "save": "spell",
+   "effect": "-1 to morale, attack and damage rolls"
+  },
+  "Confusion": {
+   "save": "spell",
+   "minHD": 3,
+   "effect": "confused (under 2+1 HD: no save)",
+   "status": "stun"
+  }
+ },
+ "breaths": [
+  {
+   "match": "multichromatic",
+   "options": [
+    {
+     "label": "Red head (fire)",
+     "anim": "Breath (Fire)",
+     "shape": "cone",
+     "length": 90,
+     "width": 30,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "fire"
+    },
+    {
+     "label": "White head (cold)",
+     "anim": "Breath (Cold)",
+     "shape": "cone",
+     "length": 80,
+     "width": 30,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "cold"
+    },
+    {
+     "label": "Blue head (lightning)",
+     "anim": "Breath (Lightning)",
+     "shape": "line",
+     "length": 100,
+     "width": 5,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "lightning"
+    },
+    {
+     "label": "Black head (acid)",
+     "anim": "Breath (Acid)",
+     "shape": "line",
+     "length": 60,
+     "width": 5,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "acid"
+    },
+    {
+     "label": "Green head (chlorine gas)",
+     "anim": "Breath (Poison)",
+     "shape": "box",
+     "length": 50,
+     "width": 40,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "poison"
+    }
+   ]
+  },
+  {
+   "match": "dragon turtle",
+   "options": [
+    {
+     "label": "Steam",
+     "anim": "Breath (Fire)",
+     "shape": "box",
+     "length": 90,
+     "width": 30,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "fire"
+    }
+   ]
+  },
+  {
+   "match": "sea dragon",
+   "options": [
+    {
+     "label": "Poison spittle",
+     "anim": "Breath (Poison)",
+     "shape": "circle",
+     "r": 10,
+     "save": "breath",
+     "onFail": "die",
+     "effect": "dies",
+     "type": "poison"
+    }
+   ]
+  },
+  {
+   "match": "red dragon",
+   "options": [
+    {
+     "label": "Fire",
+     "anim": "Breath (Fire)",
+     "shape": "cone",
+     "length": 90,
+     "width": 30,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "fire"
+    }
+   ]
+  },
+  {
+   "match": "white dragon",
+   "options": [
+    {
+     "label": "Cold",
+     "anim": "Breath (Cold)",
+     "shape": "cone",
+     "length": 80,
+     "width": 30,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "cold"
+    }
+   ]
+  },
+  {
+   "match": "blue dragon",
+   "options": [
+    {
+     "label": "Lightning",
+     "anim": "Breath (Lightning)",
+     "shape": "line",
+     "length": 100,
+     "width": 5,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "lightning"
+    }
+   ]
+  },
+  {
+   "match": "black dragon",
+   "options": [
+    {
+     "label": "Acid",
+     "anim": "Breath (Acid)",
+     "shape": "line",
+     "length": 60,
+     "width": 5,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "acid"
+    }
+   ]
+  },
+  {
+   "match": "green dragon",
+   "options": [
+    {
+     "label": "Chlorine gas",
+     "anim": "Breath (Poison)",
+     "shape": "box",
+     "length": 50,
+     "width": 40,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "poison"
+    }
+   ]
+  },
+  {
+   "match": "gold dragon",
+   "options": [
+    {
+     "label": "Fire",
+     "anim": "Breath (Fire)",
+     "shape": "cone",
+     "length": 90,
+     "width": 30,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "fire"
+    },
+    {
+     "label": "Chlorine gas",
+     "anim": "Breath (Poison)",
+     "shape": "box",
+     "length": 50,
+     "width": 40,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "poison"
+    }
+   ]
+  },
+  {
+   "match": "silver dragon",
+   "options": [
+    {
+     "label": "Cold",
+     "anim": "Breath (Cold)",
+     "shape": "cone",
+     "length": 80,
+     "width": 30,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "cold"
+    },
+    {
+     "label": "Paralysing gas",
+     "anim": "Breath (Poison)",
+     "shape": "box",
+     "length": 50,
+     "width": 40,
+     "save": "breath",
+     "effect": "paralysed for 9 turns",
+     "status": "paralysis"
+    }
+   ]
+  },
+  {
+   "match": "bronze dragon",
+   "options": [
+    {
+     "label": "Lightning",
+     "anim": "Breath (Lightning)",
+     "shape": "line",
+     "length": 100,
+     "width": 5,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "lightning"
+    },
+    {
+     "label": "Repulsion gas",
+     "anim": "Breath (Poison)",
+     "shape": "box",
+     "length": 50,
+     "width": 40,
+     "save": "breath",
+     "effect": "pushed 60' away each round for 6 rounds"
+    }
+   ]
+  },
+  {
+   "match": "copper dragon",
+   "options": [
+    {
+     "label": "Acid",
+     "anim": "Breath (Acid)",
+     "shape": "line",
+     "length": 60,
+     "width": 5,
+     "save": "breath",
+     "damage": "@hp",
+     "onSave": "half",
+     "type": "acid"
+    },
+    {
+     "label": "Slow gas",
+     "anim": "Breath (Poison)",
+     "shape": "box",
+     "length": 50,
+     "width": 40,
+     "save": "breath",
+     "effect": "half speed, acts every 2nd round for 6 rounds"
+    }
+   ]
+  },
+  {
+   "match": "brass dragon",
+   "options": [
+    {
+     "label": "Sleep gas",
+     "anim": "Breath (Poison)",
+     "shape": "cone",
+     "length": 70,
+     "width": 30,
+     "save": "breath",
+     "effect": "asleep for 4d4 turns",
+     "status": "sleep"
+    },
+    {
+     "label": "Fear gas",
+     "anim": "Breath (Poison)",
+     "shape": "box",
+     "length": 50,
+     "width": 40,
+     "save": "breath",
+     "effect": "flees for 2 turns",
+     "status": "fear"
+    }
+   ]
+  },
+  {
+   "match": "chimera",
+   "options": [
+    {
+     "label": "Fire",
+     "anim": "Breath (Fire)",
+     "shape": "cone",
+     "length": 50,
+     "width": 10,
+     "save": "breath",
+     "damage": "3d6",
+     "onSave": "half",
+     "type": "fire",
+     "note": "the text gives no save; the usual save vs breath for half is applied"
+    }
+   ]
+  },
+  {
+   "match": "flame lizard",
+   "options": [
+    {
+     "label": "Fire",
+     "anim": "Breath (Fire)",
+     "shape": "cone",
+     "length": 15,
+     "width": 15,
+     "save": "breath",
+     "damage": "2d6",
+     "onSave": "half",
+     "type": "fire"
+    }
+   ]
+  },
+  {
+   "match": "iron golem",
+   "options": [
+    {
+     "label": "Poison gas",
+     "anim": "Breath (Poison)",
+     "shape": "rect",
+     "side": 10,
+     "save": "death",
+     "onFail": "die",
+     "effect": "dies",
+     "type": "poison"
+    }
+   ]
+  }
+ ],
+ "noTemplate": [
+  "Create Water",
+  "Detect Evil",
+  "Detect Magic",
+  "Faerie Fire",
+  "Major Creation",
+  "Minor Creation",
+  "Purify Food and Water",
+  "Sleep"
+ ],
+ "templateLabels": [
+  "Acid Fog",
+  "Blacklight",
+  "Breath",
+  "Breath (Acid)",
+  "Breath (Cold)",
+  "Breath (Fire)",
+  "Breath (Lightning)",
+  "Breath (Poison)",
+  "Call Lightning",
+  "Chaos",
+  "Cloudkill",
+  "Color Spray",
+  "Colour Spray",
+  "Continual Darkness",
+  "Create Water",
+  "Darkness",
+  "Death Spell",
+  "Emotion",
+  "Entangle",
+  "Faerie Fire",
+  "Fear",
+  "Fire Ball",
+  "Growth of Nature",
+  "Growth of Plants",
+  "Hallucinatory Terrain",
+  "Hypnotic Pattern",
+  "Insect Plague",
+  "Lightning Bolt",
+  "Lower Water",
+  "Major Creation",
+  "Minor Creation",
+  "Obscuring Mist",
+  "Part Water",
+  "Permanent Illusion",
+  "Purify Food and Water",
+  "Rainbow Pattern",
+  "Silence 15' Radius",
+  "Silence 15’ Radius",
+  "Sleep",
+  "Solid Fog",
+  "Spores",
+  "Temperature Control",
+  "Transmute Mud to Rock",
+  "Transmute Rock to Mud",
+  "Triggered Illusion",
+  "Veil of Abandonment",
+  "Wall of Fire",
+  "Wall of Fog",
+  "Wall of Ice",
+  "Wall of Stone",
+  "Wall of Thorns",
+  "Web"
+ ]
+}

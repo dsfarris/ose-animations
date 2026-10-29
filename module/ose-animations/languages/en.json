@@ -1,0 +1,173 @@
+{
+	"ose-animations": {
+		"updateMenu": {
+			"title": "OSE Animations: Update Animations",
+			"apply": "Update",
+			"deleted": "These animations will be DELETED (older OSE Animations entries, or Automated Animations defaults).",
+			"added": "These animations will be added to your Automatic Recognition menu.",
+			"custom": "These won't be added because an animation with the same name already exists and wasn't made by OSE Animations.",
+			"customHint": "To use the OSE Animations version, delete yours from the Automatic Recognition menu and open this menu again.",
+			"updated": "These animations will be updated from a previous version of OSE Animations (or from the Automated Animations defaults).",
+			"nothing": "No updates were found.",
+			"blacklisted": "These animations are blacklisted and will be removed from your Automatic Recognition menu.",
+			"warning": "Back up your Automatic Recognition menu first (Automated Animations → Export). This can't be undone.",
+			"debugCustom": "These animations aren't from OSE Animations and will stay in your Automatic Recognition menu."
+		},
+		"templates": {
+			"place": "Place the area of {name}: left-click to place, Ctrl + mouse wheel to rotate (Shift + wheel for bigger steps), right-click to skip.",
+			"paused": "The game is paused, so the area of {name} can't be placed. It's cast without a template, and saves and damage aren't rolled automatically.",
+			"chooseBreath": "{name}: Breath Weapon",
+			"chooseBreathHint": "Which breath?"
+		},
+		"resolve": {
+			"target": "Creature",
+			"saveCol": "Save",
+			"result": "Result",
+			"saved": "Saved",
+			"failed": "Failed",
+			"noSave": "no save",
+			"damage": "{damage} damage",
+			"dies": "dies",
+			"down": "drops to 0 hp",
+			"outOfPool": "unaffected (Hit Dice used up)",
+			"nobody": "No creatures in the area.",
+			"damageLine": "Damage: {formula} = <b>{total}</b> {type}",
+			"poolLine": "Hit Dice affected: {formula} = <b>{total}</b>, weakest first",
+			"save": {
+				"half": "Save versus {save} for half damage.",
+				"die": "Save versus {save} or {effect}.",
+				"full": "Save versus {save}.",
+				"effect": "Save versus {save} or {effect}."
+			},
+			"noGM": "No GM is logged in, so saves and damage for this area weren't rolled.",
+			"noSocket": "Saves and damage can't be sent to the GM (socketlib isn't ready)."
+		},
+		"notifications": {
+			"update": "OSE Animations v{version} loaded. Check the update menu for new animations.",
+			"applied": "OSE Animations: {added} added, {updated} updated, {removed} removed.",
+			"wrongSystem": "OSE Animations is built for the Old-School Essentials system and does nothing in this world.",
+			"noDependencies": "OSE Animations needs <b>{modules}</b> installed and enabled for its graphics and sounds. The Patreon versions are recommended; the free versions work with some animations missing.",
+			"understand": "I understand",
+			"dontShow": "Don't show this again"
+		},
+		"settings": {
+			"autorecUpdate": {
+				"name": "Animations Update",
+				"label": "Update Menu",
+				"hint": "Add or update the OSE Animations entries in Automated Animations' Automatic Recognition menu."
+			},
+			"autoUpdate": {
+				"name": "Open Update Menu on Module Update",
+				"hint": "Open the update menu automatically when a new version of OSE Animations is installed."
+			},
+			"playMisses": {
+				"name": "Show Misses",
+				"hint": "When an attack misses its target, play the animation as a miss (projectiles fly past, swings fall short)."
+			},
+			"placeTemplates": {
+				"name": "Place Templates for Area Spells",
+				"hint": "Casting an area spell (or using a dragon's breath) asks you to place its area, sized from the spell's description. Left-click places it, Ctrl + mouse wheel rotates it, right-click or Esc skips it."
+			},
+			"autoTarget": {
+				"name": "Target Tokens in the Area",
+				"hint": "After a template is placed, target every token inside it (except the caster)."
+			},
+			"automateAreas": {
+				"name": "Roll Saves and Apply Damage in Areas",
+				"hint": "After an area spell or breath weapon's template is placed, the GM's client rolls a save for every creature inside, rolls the damage, and applies full, half or no damage to their hit points (or the spell's effect). Results are posted in one chat card. Needs a GM logged in."
+			},
+			"reviewAreas": {
+				"name": "GM Reviews Area Results",
+				"hint": "Before anything is applied, the GM gets a window at each step: setup (the rules, who's affected, save modifiers), saves (change rolls or force results), and damage (change the total or any creature's amount). Turn off to apply everything as rolled."
+			},
+			"applyConditions": {
+				"name": "Mark Conditions on Failed Saves",
+				"hint": "Add the matching status marker (asleep, paralysed, frightened, entangled, dead) to creatures that fail their save."
+			},
+			"removeInstantTemplates": {
+				"name": "Remove Instant Spell Templates",
+				"hint": "Delete the template of an instantaneous spell (Fire Ball, Lightning Bolt, breath weapons) 10 seconds after it's placed. Templates of lasting spells stay until you delete them."
+			},
+			"useTemplates": {
+				"name": "Animate Inside Templates",
+				"hint": "Play area animations inside the placed template, or inside a template you drew by hand just before casting. Turn off to always play them on tokens."
+			},
+			"templateWindow": {
+				"name": "Template Window (seconds)",
+				"hint": "How long after a template is placed or drawn a cast still uses it."
+			},
+			"scaleAreas": {
+				"name": "Scale Areas to the Grid",
+				"hint": "Area animations are sized in feet. Resize them to the scene's grid (for example 10 ft dungeon squares)."
+			},
+			"animateDamageRolls": {
+				"name": "Animate Damage Rolls",
+				"hint": "Also play the animation when a damage button on a chat card is rolled. Off by default, because OSE attack rolls already include damage."
+			},
+			"debug": {
+				"name": "Debug Mode",
+				"hint": "Log what OSE Animations is doing to the browser console."
+			}
+		},
+		"review": {
+			"setup": {
+				"title": "Setup",
+				"hint": "Check the rules and who's caught in the area. Untick a creature to leave it out, or give it a save modifier or a special case."
+			},
+			"saves": {
+				"title": "Saves",
+				"hint": "Change any roll or target number, or force a result. Saves succeed when the roll is equal to or higher than the target."
+			},
+			"damage": {
+				"title": "Damage",
+				"hint": "Change the damage total (amounts you haven't edited follow it) or any creature's amount. Nothing is applied until you continue."
+			},
+			"next": "Next",
+			"applyRest": "Apply as rolled",
+			"cancel": "Cancel",
+			"none": "None",
+			"noSaveOption": "No save",
+			"noDamage": "no damage",
+			"save": "Save",
+			"onSaveLabel": "On a successful save",
+			"onSave": {
+				"half": "Half damage",
+				"none": "No damage",
+				"full": "Full damage (save only avoids the effect)"
+			},
+			"kills": "A failed save kills",
+			"hdPool": "Hit Dice affected",
+			"status": "Marker on a failed save",
+			"effect": "Effect of a failed save",
+			"saveMode": "Save",
+			"saveMod": "Save modifier",
+			"mode": {
+				"roll": "Roll",
+				"autoSave": "Auto-save",
+				"autoFail": "Auto-fail",
+				"immune": "Immune"
+			},
+			"savesLine": "Save versus {save}.",
+			"roll": "Roll",
+			"need": "Needs",
+			"override": "Result",
+			"rolled": "As rolled",
+			"result": {
+				"auto": "From the roll"
+			},
+			"gm": "GM",
+			"total": "Damage total",
+			"ruleCol": "Rule",
+			"amount": "Damage",
+			"rule": {
+				"full": "Full",
+				"half": "Half (saved)",
+				"none": "None (saved)"
+			},
+			"adjustedNote": "Adjusted by the GM.",
+			"cancelled": "{name}: cancelled; nothing was applied.",
+			"waiting": "{name}: waiting for the GM to resolve saves and damage.",
+			"damageFormula": "Damage"
+		}
+	}
+}

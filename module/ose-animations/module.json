@@ -1,0 +1,97 @@
+{
+    "id": "ose-animations",
+    "title": "OSE Animations",
+    "description": "<p>Automated Animations presets for Old-School Essentials: every Advanced Fantasy spell, weapons, unarmed and natural attacks, and monster specials. Built from D&amp;D5e Animations.</p>",
+    "version": "1.3.0",
+    "authors": [
+        {
+            "name": "dsfarris",
+            "url": "https://github.com/dsfarris",
+            "flags": {}
+        }
+    ],
+    "url": "https://github.com/dsfarris/ose-animations",
+    "manifest": "https://github.com/dsfarris/ose-animations/releases/latest/download/module.json",
+    "download": "https://github.com/dsfarris/ose-animations/releases/download/v1.3.0/ose-animations.zip",
+    "bugs": "https://github.com/dsfarris/ose-animations/issues",
+    "license": "LICENSE",
+    "readme": "README.md",
+    "compatibility": {
+        "minimum": "14",
+        "verified": "14"
+    },
+    "esmodules": [
+        "module/settings.js",
+        "module/updateMenu.js",
+        "module/resolve.js",
+        "module/templates.js",
+        "module/ose-integration.js"
+    ],
+    "styles": [
+        "styles/ose-animations.css"
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json"
+        }
+    ],
+    "socket": true,
+    "packs": [
+        {
+            "name": "macros",
+            "label": "OSE Animations Macros",
+            "path": "packs/macros",
+            "type": "Macro",
+            "ownership": {
+                "PLAYER": "OBSERVER",
+                "ASSISTANT": "OWNER"
+            }
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "ose",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "3.0.0"
+                }
+            }
+        ],
+        "requires": [
+            {
+                "id": "autoanimations",
+                "type": "module",
+                "manifest": "https://github.com/theripper93/autoanimations/releases/latest/download/module.json",
+                "compatibility": {
+                    "minimum": "7.0.0"
+                }
+            },
+            {
+                "id": "sequencer",
+                "type": "module",
+                "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json"
+            },
+            {
+                "id": "socketlib",
+                "type": "module",
+                "manifest": "https://github.com/farling42/foundryvtt-socketlib/releases/latest/download/module.json"
+            }
+        ],
+        "recommends": [
+            {
+                "id": "JB2A_DnD5e",
+                "type": "module",
+                "reason": "Animation graphics. If you have the JB2A Patreon module (jb2a_patreon), use it instead: it has every animation."
+            },
+            {
+                "id": "psfx",
+                "type": "module",
+                "reason": "Sound effects. If you have the PSFX Patreon module (psfx-patreon), use it instead: it has every sound."
+            }
+        ]
+    },
+    "flags": {}
+}

@@ -1,0 +1,89 @@
+.ose-animations-autorec-update {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.ose-animations-autorec-update-child {
+    border: 2px solid #6f6c66;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.ose-animations-autorec-update-text {
+    text-align: center;
+}
+
+.ose-animations-autorec-update-ul {
+    column-count: 2;
+    overflow-x: auto;
+    max-height: 300px;
+}
+
+.ose-animations-columns-3 {
+    column-count: 3;
+}
+
+.ose-animations-muted {
+    color: #777 !important;
+}
+
+.ose-animations-warning {
+    text-align: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.ose-animations-resolution h3 {
+    margin: 0 0 4px;
+    border-bottom: 1px solid currentColor;
+}
+
+.ose-animations-resolution p {
+    margin: 2px 0;
+}
+
+.ose-animations-resolution table {
+    width: 100%;
+    margin-top: 4px;
+    border-collapse: collapse;
+    font-size: 0.9em;
+}
+
+.ose-animations-resolution th,
+.ose-animations-resolution td {
+    padding: 2px 4px;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.ose-animations-resolution .ose-animations-num {
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.ose-animations-review .ose-animations-review-hint {
+    margin-top: 0;
+    font-style: italic;
+}
+
+.ose-animations-review .ose-animations-review-table {
+    width: 100%;
+    margin-top: 6px;
+    border-collapse: collapse;
+}
+
+.ose-animations-review .ose-animations-review-table th,
+.ose-animations-review .ose-animations-review-table td {
+    padding: 2px 4px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.ose-animations-review .ose-animations-small {
+    width: 4.5em;
+}
+
+.ose-animations-review .ose-animations-num {
+    font-variant-numeric: tabular-nums;
+}
