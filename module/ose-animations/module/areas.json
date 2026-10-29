@@ -707,11 +707,12 @@
  },
  "lasting": {
   "Floating Disc": {
-   "file": "jb2a.energy_field.01.blue",
-   "size": 0.75,
+   "file": "jb2a.markers.bubble.loop.blue",
+   "intro": "jb2a.markers.bubble.intro.blue",
+   "outro": "jb2a.markers.bubble.outro.blue",
+   "sizeFt": 4,
    "offset": 0.85,
-   "scaleY": 0.55,
-   "opacity": 0.85,
+   "opacity": 0.9,
    "bob": 4,
    "note": "6 turns; carries up to 5,000 coins"
   }

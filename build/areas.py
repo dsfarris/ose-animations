@@ -155,11 +155,15 @@ LIGHTS = {
 }
 
 # Spells that leave a lasting visual on the caster while they last (Sequencer effect attached to the token,
-# so it follows them). Ended with the "End Spell Effects" macro. Sizes in grid squares.
-#   offset  distance beside the token, in squares   scaleY  flatten to look level   bob  float up and down (px)
+# so it follows them). Ended with the "End Spell Effects" macro.
+#   sizeFt  width in feet (converted to the scene's grid)   offset  distance beside the token, in squares
+#   intro/outro  optional clips played when it appears and ends (skipped if this JB2A doesn't have them)
+#   scaleY  squash vertically (1 = round)   bob  float up and down (px)
 LASTING = {
-    "Floating Disc": {"file": "jb2a.energy_field.01.blue", "size": 0.75, "offset": 0.85, "scaleY": 0.55,
-                      "opacity": 0.85, "bob": 4, "note": "6 turns; carries up to 5,000 coins"},
+    # Round from above: OSE's disc is a shallow 3' bowl, so top-down it's a circle (shown 4' across to read clearly).
+    "Floating Disc": {"file": "jb2a.markers.bubble.loop.blue", "intro": "jb2a.markers.bubble.intro.blue",
+                      "outro": "jb2a.markers.bubble.outro.blue", "sizeFt": 4, "offset": 0.85, "opacity": 0.9,
+                      "bob": 4, "note": "6 turns; carries up to 5,000 coins"},
 }
 
 # Spells that are single-target or have no area in OSE, even though 5e or D&D5e Animations treat them as areas.

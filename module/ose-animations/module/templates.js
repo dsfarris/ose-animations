@@ -21,20 +21,39 @@ async function startLasting(item, token) {
 	const name = `${LASTING_PREFIX}|${item.name}|${token.id}`;
 	// Recasting replaces the old one.
 	if (lastingEffects(token).some((e) => e.name === name)) await oseAnimations.endSpellEffects?.(token, [name]);
-	const gs = canvas.grid.size;
-	new Sequence({ moduleName: MODULE_ID })
-		.effect()
-		.file(cfg.file)
-		.attachTo(token, { offset: { x: cfg.offset * gs, y: 0 }, bindRotation: false, bindAlpha: false })
-		.size(cfg.size, { gridUnits: true })
-		.scale({ x: 1, y: cfg.scaleY ?? 1 })
-		.opacity(cfg.opacity ?? 1)
+	const seq = new Sequence({ moduleName: MODULE_ID });
+	// The intro clip (if this JB2A has it) plays once, then the looping disc takes over.
+	if (cfg.intro && Sequencer.Database.entryExists(cfg.intro)) {
+		lastingClip(seq.effect(), cfg, cfg.intro, token).waitUntilFinished(-300);
+	}
+	lastingClip(seq.effect(), cfg, cfg.file, token)
 		.loopProperty("sprite", "position.y", { from: -(cfg.bob ?? 0), to: cfg.bob ?? 0, duration: 1600, pingPong: true, ease: "easeInOutSine" })
-		.fadeIn(500)
-		.fadeOut(500)
+		.fadeIn(300)
+		.fadeOut(300)
 		.persist()
-		.name(name)
-		.play();
+		.name(name);
+	seq.play();
+}
+
+// One clip of a lasting effect, beside the token. Size in feet, converted to the scene's grid.
+function lastingClip(effect, cfg, file, token) {
+	const grid = canvas.scene.grid;
+	const squares = cfg.sizeFt ? cfg.sizeFt * unitsPerFoot() / (grid.distance || 5) : (cfg.size ?? 1);
+	return effect
+		.file(file)
+		.attachTo(token, { offset: { x: cfg.offset * canvas.grid.size, y: 0 }, bindRotation: false, bindAlpha: false })
+		.size(squares, { gridUnits: true })
+		.scale({ x: 1, y: cfg.scaleY ?? 1 })
+		.opacity(cfg.opacity ?? 1);
+}
+
+/** The outro clip of a lasting effect (if this JB2A has it), played as it ends. */
+function lastingOutro(token, spell) {
+	const cfg = table.lasting.get(rinse(spell));
+	if (!cfg?.outro || !token || !Sequencer.Database.entryExists(cfg.outro)) return;
+	const seq = new Sequence({ moduleName: MODULE_ID });
+	lastingClip(seq.effect(), cfg, cfg.outro, token);
+	seq.play();
 }
 
 /** Lasting OSE Animations effects on a token: [{name, spell}]. */
@@ -380,4 +399,4 @@ Hooks.once("ready", async () => {
 });
 
 globalThis.oseAnimations ??= {};
-Object.assign(globalThis.oseAnimations, { startLasting, lastingEffects, areaFor, resolveFor, breathsFor, animFor, hasTemplateAnimation, placeTemplateFor, placeBreath, templateFor, wasJustCast, currentTemplate: current });
+Object.assign(globalThis.oseAnimations, { startLasting, lastingEffects, lastingOutro, areaFor, resolveFor, breathsFor, animFor, hasTemplateAnimation, placeTemplateFor, placeBreath, templateFor, wasJustCast, currentTemplate: current });

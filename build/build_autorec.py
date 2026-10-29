@@ -356,7 +356,7 @@ if __name__ == "__main__":
                 resolve[alias] = RESOLVE[name]
     unknown = [n for n in AREAS if n.lower() not in b.labels]
     unknown += [f"resolve:{n}" for n in RESOLVE if n not in AREAS]
-    unknown += [f"lasting video:{v['file']}" for v in LASTING.values() if v["file"] not in b.prefixes]
+    unknown += [f"lasting video:{v[k]}" for v in LASTING.values() for k in ("file", "intro", "outro") if v.get(k) and v[k] not in b.prefixes]
     unknown += [f"breath anim:{o['anim']}" for br in BREATHS for o in br["options"] if o["anim"].lower() not in b.labels]
     if unknown:
         print("areas without an animation entry:", unknown)

@@ -399,6 +399,8 @@ function endEffectsGM(names) {
 async function endSpellEffects(token, names = null) {
 	const list = names ?? oseAnimations.lastingEffects?.(token).map((e) => e.name) ?? [];
 	if (!list.length) return false;
+	// Anyone may create effects, so the closing clip plays from here; deleting may need the GM.
+	for (const name of list) oseAnimations.lastingOutro?.(token, name.split("|")[1]);
 	if (game.user.isGM || game.user.role >= (game.settings.get("sequencer", "permissions-effect-delete") ?? 4) + 1) return endEffectsGM(list);
 	if (!game.users.activeGM || !socket) {
 		ui.notifications.warn(t("lasting.noGM"));
