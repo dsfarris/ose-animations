@@ -113,20 +113,34 @@ Hooks.once("ready", () => {
 
 	// The Enhanced Character Sheet (osc-character-sheet) has quick "ATK" buttons that roll a bare d20 and post
 	// their own card ("Attack" + weapon name + HIT/MISS), without OSE or an item link, so Automated Animations
-	// can't see them. Find the attack by name on the speaker and play it here; a breath places its area and
-	// resolves instead.
-	Hooks.on("createChatMessage", async (msg) => {
-		if (msg.author?.id !== game.user.id || !msg.flags?.["osc-character-sheet"]) return;
+	// can't see them. Find the attack by name on the speaker and play it here.
+	const oscAttack = (msg) => {
+		if (!msg.flags?.["osc-character-sheet"]) return null;
 		const dom = chatDom(msg);
 		const title = dom.querySelector(".rc-title")?.textContent?.trim();
 		const weapon = dom.querySelector(".rc-weapon")?.textContent?.trim();
-		if (title !== "Attack" || !weapon) return;
+		if (title !== "Attack" || !weapon) return null;
 		const token = (msg.speaker?.token && canvas.tokens?.get(msg.speaker.token))
 			|| canvas.tokens?.controlled.find((t) => t.actor?.id === msg.speaker?.actor)
 			|| canvas.tokens?.placeables.find((t) => t.actor?.id === msg.speaker?.actor);
 		const item = token?.actor?.items.find((i) => i.name === weapon);
-		if (!item) return;
-		if (oseAnimations.breathsFor?.(item).length && await oseAnimations.useBreath(item)) return;
+		return item ? { dom, token, item } : null;
+	};
+
+	// A breath doesn't roll to hit in OSE (everyone in the area saves), so drop that sheet's d20 card and
+	// place the breath instead. Returning false from preCreateChatMessage cancels the message.
+	Hooks.on("preCreateChatMessage", (msg) => {
+		const attack = oscAttack(msg);
+		if (!attack || !oseAnimations.breathsFor?.(attack.item).length || !setting("placeTemplates")) return;
+		setTimeout(() => oseAnimations.useBreath(attack.item), 0);
+		return false;
+	});
+
+	Hooks.on("createChatMessage", async (msg) => {
+		if (msg.author?.id !== game.user.id) return;
+		const attack = oscAttack(msg);
+		if (!attack) return;
+		const { dom, token, item } = attack;
 		const targets = Array.from(game.user.targets);
 		const verdict = dom.querySelector(".rc-verdict");
 		const options = { targets };

@@ -2,7 +2,7 @@
     "id": "ose-animations",
     "title": "OSE Animations",
     "description": "<p>Automated Animations presets for Old-School Essentials: every Advanced Fantasy spell, weapons, unarmed and natural attacks, and monster specials. Built from D&amp;D5e Animations.</p>",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "authors": [
         {
             "name": "dsfarris",
@@ -12,7 +12,7 @@
     ],
     "url": "https://github.com/dsfarris/ose-animations",
     "manifest": "https://github.com/dsfarris/ose-animations/releases/latest/download/module.json",
-    "download": "https://github.com/dsfarris/ose-animations/releases/download/v1.3.1/ose-animations.zip",
+    "download": "https://github.com/dsfarris/ose-animations/releases/download/v1.3.2/ose-animations.zip",
     "bugs": "https://github.com/dsfarris/ose-animations/issues",
     "license": "LICENSE",
     "readme": "README.md",

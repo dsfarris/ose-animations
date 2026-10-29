@@ -285,7 +285,11 @@ Hooks.once("ready", async () => {
 	// Used for the Enhanced Character Sheet's quick "ATK" roll, which doesn't go through OSE (ose-integration.js).
 	oseAnimations.useBreath = async (item) => {
 		const placed = await placeBreath(item);
-		if (!placed) return false;
+		// Skipped: still post the breath so its save button is in chat (it animates on the targets).
+		if (!placed) {
+			await show.call(item);
+			return false;
+		}
 		await show.call(item);
 		await resolveBreath(item, placed);
 		return true;
