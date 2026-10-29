@@ -8,7 +8,7 @@
 const MODULE_ID = "ose-animations";
 const rinse = (s) => String(s ?? "").replace(/\s+/g, "").replace(/[’‘]/g, "'").toLowerCase();
 
-const table = { areas: new Map(), resolve: new Map(), breaths: [], noTemplate: new Set(), templateLabels: new Set() };
+const table = { areas: new Map(), resolve: new Map(), lights: new Map(), breaths: [], noTemplate: new Set(), templateLabels: new Set() };
 // The template placed for the current cast, and whether its animation already played.
 const current = { id: null, sceneId: null, itemId: null, manual: false, time: 0, usedAt: 0, animLabel: null };
 // Spells cast through spendSpell, by item uuid. Posting a spell to chat without casting it shouldn't animate.
@@ -29,6 +29,29 @@ function areaFor(name) {
 
 function resolveFor(name) {
 	return table.resolve.get(rinse(name)) ?? null;
+}
+
+function lightFor(name) {
+	return table.lights.get(rinse(name)) ?? null;
+}
+
+// Light and Continual Light can be cast at a spot or on a creature or object. Resolves to "spot", "token" or null.
+async function chooseLightTarget(item) {
+	return foundry.applications.api.DialogV2.wait({
+		window: { title: item.name },
+		content: `<p>${game.i18n.localize(`${MODULE_ID}.lights.where`)}</p>`,
+		buttons: [
+			{ action: "spot", label: game.i18n.localize(`${MODULE_ID}.lights.spot`), icon: "fa-solid fa-location-dot", default: true },
+			{ action: "token", label: game.i18n.localize(`${MODULE_ID}.lights.token`), icon: "fa-solid fa-user" }
+		],
+		rejectClose: false
+	});
+}
+
+function regionCenter(region) {
+	const s = region.shapes[0];
+	if (s.type === "rectangle") return { x: s.x + s.width / 2, y: s.y + s.height / 2 };
+	return { x: s.x, y: s.y };
 }
 
 function hasTemplateAnimation(name) {
@@ -109,7 +132,7 @@ async function tokensIn(region, caster) {
  * Ask the user to place an area. Resolves to {region, caster, targets}, or null when placement is
  * off or not possible, or the user skipped it.
  */
-async function placeArea(item, area, { animLabel = null } = {}) {
+async function placeArea(item, area, { animLabel = null, target = true } = {}) {
 	if (!area || !setting("placeTemplates") || !canvas.ready || !canvas.scene) return null;
 	if (!game.user.can("REGION_CREATE")) return null;
 	// Foundry doesn't let players place templates while the game is paused.
@@ -137,7 +160,7 @@ async function placeArea(item, area, { animLabel = null } = {}) {
 	}
 	if (!region) return null;
 	Object.assign(current, { id: region.id, sceneId: region.parent?.id, itemId: item.id, manual: false, time: Date.now(), usedAt: 0, animLabel });
-	const targets = await tokensIn(region, caster);
+	const targets = target ? await tokensIn(region, caster) : [];
 	const instant = /instant/i.test(item.system?.duration ?? "") || /^breath/i.test(item.name);
 	if (instant && setting("removeInstantTemplates")) {
 		setTimeout(() => region.parent?.regions.get(region.id)?.delete(), 10000);
@@ -146,8 +169,8 @@ async function placeArea(item, area, { animLabel = null } = {}) {
 }
 
 /** Place the area of a spell, from the area table. */
-function placeTemplateFor(item) {
-	return placeArea(item, areaFor(item.name));
+function placeTemplateFor(item, options) {
+	return placeArea(item, areaFor(item.name), options);
 }
 
 /** Choose (if the monster has several) and place a breath weapon. Resolves to {region, caster, targets, option} or null. */
@@ -193,6 +216,7 @@ Hooks.once("ready", async () => {
 		const data = await (await fetch(`modules/${MODULE_ID}/module/areas.json`)).json();
 		for (const [name, area] of Object.entries(data.areas)) table.areas.set(rinse(name), area);
 		for (const [name, spec] of Object.entries(data.resolve ?? {})) table.resolve.set(rinse(name), spec);
+		for (const [name, light] of Object.entries(data.lights ?? {})) table.lights.set(rinse(name), light);
 		table.breaths = data.breaths ?? [];
 		data.noTemplate.forEach((n) => table.noTemplate.add(rinse(n)));
 		data.templateLabels.forEach((n) => table.templateLabels.add(rinse(n)));
@@ -207,13 +231,38 @@ Hooks.once("ready", async () => {
 	});
 
 	const proto = CONFIG.Item.documentClass.prototype;
-	const { spendSpell, rollWeapon, rollFormula, show } = proto;
+	const { spendSpell, rollFormula, show } = proto;
 	const automate = (placed, spec) => placed && spec && setting("automateAreas");
 
 	// Spells place their area first. When saves and damage are automated, the spell is spent and its
 	// card posted here instead of OSE rolling the bare damage formula (Fire Ball's "1d6"), and the GM's
 	// client resolves the area.
 	proto.spendSpell = async function (...args) {
+		// Light spells make a real light source: at the template's centre, or on a token that carries it.
+		const light = setting("placeTemplates") && setting("createLights") ? lightFor(this.name) : null;
+		if (light) {
+			const where = await chooseLightTarget(this);
+			if (where === "token") {
+				const token = game.user.targets.first() ?? casterToken(this);
+				if (token && !game.user.targets.has(token)) token.setTarget(true, { releaseOthers: true, groupSelection: false });
+				casts.set(this.uuid, Date.now());
+				const result = await spendSpell.apply(this, args);
+				if (token) await oseAnimations.requestLight({ name: this.name, light, tokenUuid: token.document.uuid });
+				return result;
+			}
+			if (where === "spot") {
+				const placed = await placeTemplateFor(this, { target: false });
+				casts.set(this.uuid, Date.now());
+				const result = await spendSpell.apply(this, args);
+				if (placed) {
+					const { x, y } = regionCenter(placed.region);
+					await oseAnimations.requestLight({ name: this.name, light, sceneId: placed.region.parent.id, x, y });
+					// The light replaces the template once the animation has played.
+					setTimeout(() => placed.region.parent?.regions.get(placed.region.id)?.delete(), 6000);
+				}
+				return result;
+			}
+		}
 		const placed = await placeTemplateFor(this);
 		casts.set(this.uuid, Date.now());
 		const spec = resolveFor(this.name);
@@ -229,21 +278,55 @@ Hooks.once("ready", async () => {
 	const resolveBreath = (item, placed) => automate(placed, placed?.option) && oseAnimations.requestResolution({
 		name: `${item.actor?.name ?? item.name}: ${placed.option.label}`, spec: placed.option, ...placed
 	});
-	proto.rollWeapon = async function (...args) {
-		const placed = await placeBreath(this);
-		// A resolved breath replaces OSE's attack roll against each target; post the card for the animation.
-		if (automate(placed, placed?.option)) {
-			await show.call(this);
-			return resolveBreath(this, placed);
-		}
-		return rollWeapon.apply(this, args);
+	// Weapon-type breaths (Red Dragon "Breath", Dragon Turtle, Sea Dragon) are attacks. Every attack ends in
+	// Actor#targetAttack: OSE's own sheet gets there through Item#rollWeapon, the Enhanced Character Sheet
+	// (osc-character-sheet) calls it directly. A resolved breath replaces OSE's attack roll against each
+	// target; the card is posted for the animation.
+	// Used for the Enhanced Character Sheet's quick "ATK" roll, which doesn't go through OSE (ose-integration.js).
+	oseAnimations.useBreath = async (item) => {
+		const placed = await placeBreath(item);
+		if (!placed) return false;
+		await show.call(item);
+		await resolveBreath(item, placed);
+		return true;
 	};
+
+	const actorProto = CONFIG.Actor.documentClass.prototype;
+	const targetAttack = actorProto.targetAttack;
+	if (typeof targetAttack === "function") {
+		actorProto.targetAttack = async function (data, ...rest) {
+			const item = data?.item?._id ? this.items.get(data.item._id) : null;
+			if (item && breathsFor(item).length) {
+				const placed = await placeBreath(item);
+				if (automate(placed, placed?.option)) {
+					await show.call(item);
+					return resolveBreath(item, placed);
+				}
+			}
+			return targetAttack.call(this, data, ...rest);
+		};
+	}
 	proto.rollFormula = async function (...args) {
+		// A breath with no formula (the Advanced Fantasy dragons) is used by posting it; see renderActorSheetV2 below.
+		if (this.type !== "spell" && !this.system.roll && breathsFor(this).length) return proto.show.call(this);
 		const placed = this.type !== "spell" ? await placeBreath(this) : null;
 		const result = await rollFormula.apply(this, args);
 		await resolveBreath(this, placed);
 		return result;
 	};
+	// OSE sheets only let you click an ability's picture to use it when it has a roll formula, so a
+	// dragon's breath could only be used from the small "Show" (eye) icon. Mark breath abilities
+	// rollable too; OSE then calls rollFormula, which posts the breath (above).
+	Hooks.on("renderActorSheetV2", (app, element) => {
+		const actor = app.document;
+		const root = element instanceof HTMLElement ? element : element?.[0];
+		if (!actor?.items || !root) return;
+		for (const row of root.querySelectorAll(".item-entry[data-item-id]")) {
+			const item = actor.items.get(row.dataset.itemId);
+			if (item && item.type === "ability" && !item.system.roll && breathsFor(item).length) row.classList.add("item-rollable");
+		}
+	});
+
 	proto.show = async function (...args) {
 		const placed = this.type !== "spell" ? await placeBreath(this) : null;
 		const result = await show.apply(this, args);

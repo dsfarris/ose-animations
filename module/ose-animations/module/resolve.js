@@ -367,10 +367,42 @@ async function requestResolution({ name, spec, caster, region, targets }) {
 	return socket.executeAsGM("resolveArea", payload);
 }
 
+/**
+ * Runs on the GM's client: a light source for Light or Continual Light, at a spot or on a token.
+ * Players can't create lights or edit other people's tokens, so this goes through the GM like damage.
+ */
+async function createLight({ name, light, sceneId, x, y, tokenUuid }) {
+	// The spell's full radius, with a bright core and a soft rim so it doesn't look like a hard disc.
+	const config = { bright: Math.round(light.radius * 0.7), dim: light.radius, color: light.color, alpha: 0.3, luminosity: 0.5, attenuation: 0.6, animation: { type: null } };
+	const flags = { [MODULE_ID]: { spell: name } };
+	if (tokenUuid) {
+		const token = await fromUuid(tokenUuid);
+		if (!token) return null;
+		const prior = token.getFlag(MODULE_ID, "priorLight") ?? token.toObject().light;
+		await token.update({ light: config, [`flags.${MODULE_ID}.priorLight`]: prior, [`flags.${MODULE_ID}.lightSpell`]: name });
+		return { token: token.name };
+	}
+	const scene = game.scenes.get(sceneId);
+	if (!scene) return null;
+	const [doc] = await scene.createEmbeddedDocuments("AmbientLight", [{ x, y, config, flags }]);
+	return { light: doc?.id };
+}
+
+/** Called on the caster's client. */
+async function requestLight(payload) {
+	if (game.user.isGM) return createLight(payload);
+	if (!game.users.activeGM || !socket) {
+		ui.notifications.warn(t("lights.noGM", { name: payload.name }));
+		return null;
+	}
+	return socket.executeAsGM("createLight", payload);
+}
+
 Hooks.once("socketlib.ready", () => {
 	socket = socketlib.registerModule(MODULE_ID);
 	socket.register("resolveArea", resolveArea);
+	socket.register("createLight", createLight);
 });
 
 globalThis.oseAnimations ??= {};
-Object.assign(globalThis.oseAnimations, { requestResolution, resolveArea, levelOf });
+Object.assign(globalThis.oseAnimations, { requestResolution, resolveArea, requestLight, levelOf });

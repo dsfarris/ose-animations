@@ -189,8 +189,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Antlers",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -396,8 +396,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Axe",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -613,8 +613,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Bastard Sword",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -820,8 +820,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Battle Axe",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -1016,8 +1016,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Beak",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -1214,8 +1214,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Blow",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -1410,8 +1410,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Butt",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -1617,8 +1617,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Claw",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -1824,8 +1824,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Club",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -2022,8 +2022,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Clubbing",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -2230,8 +2230,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Dagger",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -2428,8 +2428,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Drop",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -2625,8 +2625,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Fist",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -2832,8 +2832,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Flail",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -3025,8 +3025,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Flaming Hoof",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -3232,8 +3232,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Giant Weapon",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -3439,8 +3439,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Gore",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -3637,8 +3637,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Grab",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -3835,8 +3835,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Grasp",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -4042,8 +4042,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Greatsword",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -4249,8 +4249,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Halberd",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -4458,8 +4458,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hammer",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -4666,8 +4666,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hand Axe",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -4857,8 +4857,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hoof",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -5053,8 +5053,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Horn",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -5249,8 +5249,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Kick",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -5447,8 +5447,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Knife",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -5654,8 +5654,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Lance",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -5862,8 +5862,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Longsword",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -6069,8 +6069,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Mace",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -6261,8 +6261,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Mandibles",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -6468,8 +6468,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Maul",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -6675,8 +6675,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Morning Star",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -6882,8 +6882,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Pick",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -7089,8 +7089,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Pike",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -7281,8 +7281,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Pincer",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -7488,8 +7488,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Polearm",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -7680,8 +7680,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Pseudopod",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -7878,8 +7878,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Punch",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -8085,8 +8085,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Rake",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -8281,8 +8281,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Ram",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -8488,8 +8488,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Rapier",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -8695,8 +8695,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Scimitar",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -8886,8 +8886,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Scythe",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -9093,8 +9093,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Short Sword",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -9300,8 +9300,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Sickle",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -9498,8 +9498,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Slam",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -9705,8 +9705,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Snout",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -9913,8 +9913,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spear",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -10120,8 +10120,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spiked Club",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -10311,8 +10311,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spine",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -10518,8 +10518,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Staff",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -10714,8 +10714,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Sting",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -10910,8 +10910,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Stomp",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -11116,8 +11116,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Sword",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -11312,8 +11312,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Tail",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -11519,8 +11519,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Talon",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -11726,8 +11726,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Torch",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -11922,8 +11922,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Trample",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -12130,8 +12130,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Trident",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -12326,8 +12326,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Tusk",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -12533,8 +12533,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Two Handed Sword",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -12740,8 +12740,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Two-Handed Sword",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -12938,8 +12938,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Unarmed Strike",
     "menu": "melee",
     "oseGroup": "Unarmed"
@@ -13145,8 +13145,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "War Hammer",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -13342,8 +13342,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Weapon",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -13549,8 +13549,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Whip",
     "menu": "melee",
     "oseGroup": "Weapon"
@@ -13745,8 +13745,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wing",
     "menu": "melee",
     "oseGroup": "Natural"
@@ -13943,8 +13943,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Acid Spit",
     "menu": "range",
     "oseGroup": "Special"
@@ -14128,8 +14128,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Acid Squirt",
     "menu": "range",
     "oseGroup": "Special"
@@ -14314,8 +14314,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Arrow",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -14485,8 +14485,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Boulder",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -14671,8 +14671,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Bow",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -14844,8 +14844,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Acid) §",
     "menu": "range",
     "oseGroup": "Special",
@@ -15028,8 +15028,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Cold) §",
     "menu": "range",
     "oseGroup": "Special",
@@ -15212,8 +15212,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Fire) §",
     "menu": "range",
     "oseGroup": "Special",
@@ -15396,8 +15396,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Lightning) §",
     "menu": "range",
     "oseGroup": "Special",
@@ -15580,8 +15580,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Poison) §",
     "menu": "range",
     "oseGroup": "Special",
@@ -15764,8 +15764,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath §",
     "menu": "range",
     "oseGroup": "Special",
@@ -15954,8 +15954,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cause Disease",
     "menu": "range",
     "oseGroup": "Spell"
@@ -16125,8 +16125,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Chromatic Orb",
     "menu": "range",
     "oseGroup": "Spell"
@@ -16298,8 +16298,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Color Spray §",
     "menu": "range",
     "oseGroup": "Spell",
@@ -16482,8 +16482,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Colour Spray §",
     "menu": "range",
     "oseGroup": "Spell",
@@ -16678,8 +16678,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Crossbow",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -16849,8 +16849,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Crystal Disc",
     "menu": "range",
     "oseGroup": "Special"
@@ -17034,8 +17034,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Dart",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -17208,8 +17208,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Disintegrate",
     "menu": "range",
     "oseGroup": "Spell"
@@ -17377,8 +17377,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Eye Rays",
     "menu": "range",
     "oseGroup": "Special"
@@ -17547,8 +17547,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Feeblemind",
     "menu": "range",
     "oseGroup": "Spell"
@@ -17718,8 +17718,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Finger of Death",
     "menu": "range",
     "oseGroup": "Spell"
@@ -17891,8 +17891,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Fire Ball §",
     "menu": "range",
     "oseGroup": "Spell",
@@ -18089,8 +18089,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Holy Water",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -18261,8 +18261,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hurled Object",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -18446,8 +18446,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Javelin",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -18631,8 +18631,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Lightning",
     "menu": "range",
     "oseGroup": "Special"
@@ -18804,8 +18804,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Lightning Bolt §",
     "menu": "range",
     "oseGroup": "Spell",
@@ -19000,8 +19000,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Long Bow",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -19172,8 +19172,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Magic Missile",
     "menu": "range",
     "oseGroup": "Spell"
@@ -19366,8 +19366,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Magma Jet",
     "menu": "range",
     "oseGroup": "Special"
@@ -19537,8 +19537,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Maze of Mirrors",
     "menu": "range",
     "oseGroup": "Spell"
@@ -19708,8 +19708,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Oil Flask",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -19893,8 +19893,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Oil Spray",
     "menu": "range",
     "oseGroup": "Special"
@@ -20079,8 +20079,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Produce Flame",
     "menu": "range",
     "oseGroup": "Spell"
@@ -20251,8 +20251,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Rock",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -20436,8 +20436,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Short Bow",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -20609,8 +20609,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Sleep §",
     "menu": "range",
     "oseGroup": "Spell",
@@ -20620,7 +20620,9 @@
    },
    "advanced": {
     "exactMatch": false,
-    "excludedTerms": [],
+    "excludedTerms": [
+     "sleeping"
+    ],
     "excludedType": {
      "enabled": false,
      "path": "",
@@ -20806,8 +20808,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Sling",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -20991,8 +20993,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spit",
     "menu": "range",
     "oseGroup": "Special"
@@ -21176,8 +21178,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spray",
     "menu": "range",
     "oseGroup": "Special"
@@ -21348,8 +21350,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Thrown Rock",
     "menu": "range",
     "oseGroup": "Weapon"
@@ -21542,8 +21544,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Acid Fog §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -21725,8 +21727,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Air Breathing",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -21906,8 +21908,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Animal Friendship",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -22086,8 +22088,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Animate Dead",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -22278,8 +22280,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Anti-Magic Shell",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -22472,8 +22474,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Auditory Illusion",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -22623,8 +22625,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Barkskin",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -22844,8 +22846,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Bite",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -23036,8 +23038,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Blacklight §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -23233,8 +23235,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Bless",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -23436,8 +23438,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Blight",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -23616,8 +23618,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Blindness/Deafness",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -23764,8 +23766,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Blur",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -23996,8 +23998,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Call Lightning §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -24180,8 +24182,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cause Fear",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -24360,8 +24362,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cause Light Wounds",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -24540,8 +24542,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cause Serious Wounds",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -24732,8 +24734,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Chaos §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -24914,8 +24916,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Charm",
     "menu": "ontoken",
     "oseGroup": "Special"
@@ -25097,8 +25099,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Charm Monster",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -25278,8 +25280,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Charm Person",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -25463,8 +25465,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Clairvoyance",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -25655,8 +25657,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cloudkill §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -25838,8 +25840,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Commune",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -26018,8 +26020,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Commune with Nature",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -26198,8 +26200,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Confusion",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -26378,8 +26380,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Conjure Elemental",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -26558,8 +26560,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Constrict",
     "menu": "ontoken",
     "oseGroup": "Unarmed"
@@ -26738,8 +26740,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Contact Higher Plane",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -26930,8 +26932,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Continual Darkness §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -26941,8 +26943,8 @@
    }
   },
   {
-   "id": "3810dd7626c1f01c",
-   "label": "Continual Light",
+   "id": "ab73fcbf747ea3da",
+   "label": "Continual Light §",
    "macro": {
     "enable": false,
     "playWhen": "0"
@@ -26957,34 +26959,37 @@
      "fadeIn": 250,
      "fadeOut": 500,
      "isMasked": false,
-     "isRadius": false,
+     "isRadius": true,
      "isWait": false,
-     "opacity": 1,
+     "opacity": 0.5,
      "persistent": false,
-     "playOn": "default",
+     "playOn": "target",
      "repeat": 1,
-     "repeatDelay": 0,
-     "size": 1,
+     "repeatDelay": 500,
+     "size": 6.0,
      "unbindAlpha": false,
      "unbindVisibility": false,
-     "zIndex": 1
+     "zIndex": 1,
+     "tint": false,
+     "tintColor": "#000000"
     },
     "sound": {
      "delay": 0,
      "enable": true,
-     "file": "psfx.1st-level-spells.burning-hands.v1.001",
+     "file": "psfx.cantrips.light.v1.001",
      "startTime": 0,
-     "volume": 0.75,
+     "volume": 0.5,
      "repeat": 1,
      "repeatDelay": 250
     },
     "video": {
-     "dbSection": "static",
-     "menuType": "fire",
-     "animation": "eruption",
-     "variant": "01",
-     "color": "orange",
-     "enableCustom": false
+     "dbSection": "templatefx",
+     "menuType": "circle",
+     "animation": "moonbeam",
+     "variant": "loop",
+     "color": "yellow",
+     "enableCustom": true,
+     "customPath": "jb2a.markers.light.nopulse.yellow02"
     }
    },
    "secondary": {
@@ -27001,7 +27006,7 @@
      "isWait": false,
      "opacity": 1,
      "repeat": 1,
-     "repeatDelay": 0,
+     "repeatDelay": 500,
      "size": 1.5,
      "zIndex": 1
     },
@@ -27111,13 +27116,25 @@
      "customPath": ""
     }
    },
+   "advanced": {
+    "exactMatch": false,
+    "excludedTerms": [],
+    "excludedType": {
+     "enabled": false,
+     "path": "",
+     "property": ""
+    }
+   },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
-    "label": "Continual Light",
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
+    "label": "Continual Light §",
     "menu": "ontoken",
-    "oseGroup": "Spell"
+    "oseGroup": "Spell",
+    "oseArea": true,
+    "oseSingleTarget": true,
+    "oseTwinOf": "Continual Light"
    }
   },
   {
@@ -27308,8 +27325,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Control Weather",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -27488,8 +27505,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Create Food",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -27680,8 +27697,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Create Water §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -27863,8 +27880,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cure Disease",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -28054,8 +28071,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cure Light Wounds",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -28245,8 +28262,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cure Serious Wounds",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -28425,8 +28442,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Curse",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -28619,8 +28636,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Dancing Lights",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -28811,8 +28828,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Darkness §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -29006,8 +29023,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Death Spell §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -29189,8 +29206,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Demi-Shadow Monsters",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -29370,8 +29387,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Detect Danger",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -29562,8 +29579,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Detect Evil",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -29748,8 +29765,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Detect Illusion",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -29933,8 +29950,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Detect Invisible",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -30125,8 +30142,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Detect Magic",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -30304,8 +30321,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Dispel Evil",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -30484,8 +30501,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Dispel Illusion",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -30664,8 +30681,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Dispel Magic",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -30844,8 +30861,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Dream Quest",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -31036,8 +31053,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Emotion §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -31231,8 +31248,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Entangle §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -31414,8 +31431,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "ESP",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -31606,8 +31623,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Faerie Fire §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -31789,8 +31806,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "False Aura",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -31970,8 +31987,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Fascinate",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -32162,8 +32179,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Fear §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -32345,8 +32362,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Feeler",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -32526,8 +32543,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Find Traps",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -32705,8 +32722,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Flesh to Stone",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -32886,8 +32903,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Floating Disc",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -33066,8 +33083,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Fly",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -33256,8 +33273,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Gaze",
     "menu": "ontoken",
     "oseGroup": "Special"
@@ -33436,8 +33453,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Geas",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -33616,8 +33633,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Glamour",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -33794,8 +33811,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Growth of Animal",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -33986,8 +34003,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Growth of Nature §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -34181,8 +34198,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Growth of Plants §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -34376,8 +34393,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hallucinatory Terrain §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -34559,8 +34576,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Haste",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -34739,8 +34756,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Heat Metal",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -34920,8 +34937,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hold Animal",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -35101,8 +35118,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hold Monster",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -35282,8 +35299,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hold Person",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -35462,8 +35479,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hold Portal",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -35654,8 +35671,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hypnotic Pattern §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -35842,8 +35859,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hypnotism",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -36022,8 +36039,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Illusion",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -36202,8 +36219,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Illusory Stamina",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -36382,8 +36399,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Impersonation",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -36563,8 +36580,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Improved Invisibility",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -36743,8 +36760,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Improved Phantasmal Force",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -36928,8 +36945,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Infravision",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -37120,8 +37137,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Insect Plague §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -37304,8 +37321,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Invisibility",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -37485,8 +37502,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Invisibility 10' Radius",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -37667,8 +37684,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Invisibility 10’ Radius",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -37849,8 +37866,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Invisibility to Animals",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -38029,8 +38046,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Invisible Stalker",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -38210,8 +38227,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Knock",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -38391,8 +38408,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Know Alignment",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -38571,90 +38588,69 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Levitate",
     "menu": "ontoken",
     "oseGroup": "Spell"
    }
   },
   {
-   "id": "9914a0ce04a7b7b6",
-   "label": "Light",
+   "id": "d5c579c99e72f7b1",
+   "label": "Light §",
    "macro": {
     "enable": false,
     "playWhen": "0"
    },
    "menu": "ontoken",
    "primary": {
-    "video": {
-     "dbSection": "static",
-     "menuType": "spell",
-     "animation": "curewounds",
-     "variant": "01",
-     "color": "blue",
-     "enableCustom": true,
-     "customPath": "jb2a.markers.light.complete.yellow"
-    },
-    "sound": {
-     "enable": true,
-     "delay": 0,
-     "file": "psfx.cantrips.light",
-     "repeat": 1,
-     "repeatDelay": 250,
-     "startTime": 0,
-     "volume": 0.75
-    },
     "options": {
      "addTokenWidth": false,
      "anchor": "0.5",
-     "contrast": 0,
      "delay": 0,
      "elevation": 1000,
      "fadeIn": 250,
      "fadeOut": 500,
      "isMasked": false,
-     "isRadius": false,
+     "isRadius": true,
      "isWait": false,
-     "opacity": 1,
+     "opacity": 0.5,
      "persistent": false,
-     "playbackRate": 1,
-     "playOn": "default",
+     "playOn": "target",
      "repeat": 1,
-     "repeatDelay": 250,
-     "saturate": 0,
-     "size": 1.5,
-     "tint": false,
-     "tintColor": "#FFFFFF",
+     "repeatDelay": 500,
+     "size": 3.0,
      "unbindAlpha": false,
      "unbindVisibility": false,
-     "zIndex": 1
+     "zIndex": 1,
+     "tint": false,
+     "tintColor": "#000000"
+    },
+    "sound": {
+     "delay": 0,
+     "enable": true,
+     "file": "psfx.cantrips.light.v1.001",
+     "startTime": 0,
+     "volume": 0.5,
+     "repeat": 1,
+     "repeatDelay": 250
+    },
+    "video": {
+     "dbSection": "templatefx",
+     "menuType": "circle",
+     "animation": "moonbeam",
+     "variant": "loop",
+     "color": "yellow",
+     "enableCustom": true,
+     "customPath": "jb2a.markers.light.nopulse.yellow02"
     }
    },
    "secondary": {
     "enable": false,
-    "video": {
-     "dbSection": "static",
-     "menuType": "spell",
-     "animation": "curewounds",
-     "variant": "01",
-     "color": "blue",
-     "enableCustom": false,
-     "customPath": ""
-    },
-    "sound": {
-     "enable": false,
-     "delay": 0,
-     "repeat": 1,
-     "repeatDelay": 250,
-     "startTime": 0,
-     "volume": 0.75
-    },
     "options": {
      "addTokenWidth": false,
      "anchor": "0.5",
-     "contrast": 0,
-     "delay": 0,
+     "delay": 250,
      "elevation": 1000,
      "fadeIn": 250,
      "fadeOut": 500,
@@ -38663,26 +38659,19 @@
      "isWait": false,
      "opacity": 1,
      "repeat": 1,
-     "repeatDelay": 250,
-     "saturate": 0,
+     "repeatDelay": 500,
      "size": 1.5,
-     "tint": false,
-     "tintColor": "#FFFFFF",
      "zIndex": 1
-    }
-   },
-   "soundOnly": {
+    },
     "sound": {
-     "enable": false,
      "delay": 0,
-     "repeat": 1,
-     "repeatDelay": 250,
+     "enable": false,
+     "file": "",
      "startTime": 0,
-     "volume": 0.75
-    }
-   },
-   "source": {
-    "enable": false,
+     "volume": 0.75,
+     "repeat": 1,
+     "repeatDelay": 250
+    },
     "video": {
      "dbSection": "static",
      "menuType": "spell",
@@ -38691,19 +38680,23 @@
      "color": "blue",
      "enableCustom": false,
      "customPath": ""
-    },
+    }
+   },
+   "soundOnly": {
     "sound": {
      "enable": false,
      "delay": 0,
-     "repeat": 1,
-     "repeatDelay": 250,
      "startTime": 0,
-     "volume": 0.75
-    },
+     "volume": 0.75,
+     "repeat": 1,
+     "repeatDelay": 250
+    }
+   },
+   "source": {
+    "enable": false,
     "options": {
      "addTokenWidth": false,
      "anchor": "0.5",
-     "contrast": 0,
      "delay": 0,
      "elevation": 1000,
      "fadeIn": 250,
@@ -38714,15 +38707,18 @@
      "opacity": 1,
      "repeat": 1,
      "repeatDelay": 250,
-     "saturate": 0,
      "size": 1,
-     "tint": false,
-     "tintColor": "#FFFFFF",
      "zIndex": 1
-    }
-   },
-   "target": {
-    "enable": false,
+    },
+    "sound": {
+     "delay": 0,
+     "enable": false,
+     "file": "",
+     "startTime": 0,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "volume": 0.75
+    },
     "video": {
      "dbSection": "static",
      "menuType": "spell",
@@ -38731,45 +38727,47 @@
      "color": "blue",
      "enableCustom": false,
      "customPath": ""
-    },
-    "sound": {
-     "enable": false,
-     "delay": 0,
-     "repeat": 1,
-     "repeatDelay": 250,
-     "startTime": 0,
-     "volume": 0.75
-    },
+    }
+   },
+   "target": {
+    "enable": false,
     "options": {
      "addTokenWidth": false,
      "anchor": "0.5",
-     "contrast": 0,
      "delay": 0,
      "elevation": 1000,
      "fadeIn": 250,
      "fadeOut": 500,
      "isMasked": false,
+     "isWait": false,
      "isRadius": false,
      "opacity": 1,
      "persistent": false,
      "repeat": 1,
      "repeatDelay": 250,
-     "saturate": 0,
      "size": 1,
-     "tint": false,
-     "tintColor": "#FFFFFF",
      "unbindAlpha": false,
      "unbindVisibility": false,
      "zIndex": 1
+    },
+    "sound": {
+     "delay": 0,
+     "enable": false,
+     "file": "",
+     "startTime": 0,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "volume": 0.75
+    },
+    "video": {
+     "dbSection": "static",
+     "menuType": "spell",
+     "animation": "curewounds",
+     "variant": "01",
+     "color": "blue",
+     "enableCustom": false,
+     "customPath": ""
     }
-   },
-   "metaData": {
-    "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
-    "label": "Light",
-    "menu": "ontoken",
-    "oseGroup": "Spell"
    },
    "advanced": {
     "exactMatch": false,
@@ -38790,6 +38788,17 @@
      "path": "",
      "property": ""
     }
+   },
+   "metaData": {
+    "name": "OSE Animations",
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
+    "label": "Light §",
+    "menu": "ontoken",
+    "oseGroup": "Spell",
+    "oseArea": true,
+    "oseSingleTarget": true,
+    "oseTwinOf": "Light"
    }
   },
   {
@@ -38965,8 +38974,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Locate Object",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -39145,8 +39154,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Locate Plant or Animal",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -39327,8 +39336,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Looking Glass",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -39519,8 +39528,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Lower Water §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -39717,8 +39726,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Magic Jar",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -39897,8 +39906,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Magic Mouth",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -40089,8 +40098,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Major Creation §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -40272,8 +40281,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Manifest Dream",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -40457,8 +40466,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Mass Suggestion",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -40636,8 +40645,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Massmorph",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -40828,8 +40837,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Minor Creation §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -41011,8 +41020,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Mirror Image",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -41189,8 +41198,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Mislead",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -41387,8 +41396,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Move Earth",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -41567,8 +41576,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Neutralize Poison",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -41747,8 +41756,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Nondetection",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -41939,8 +41948,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Obscuring Mist §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -42123,8 +42132,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Paralysation",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -42315,8 +42324,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Part Water §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -42513,8 +42522,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Pass Plant",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -42694,8 +42703,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Pass-Wall",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -42875,8 +42884,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Passwall",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -43067,8 +43076,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Permanent Illusion §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -43264,8 +43273,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Phantasmal Force",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -43451,8 +43460,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Phantasmal Killer",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -43631,8 +43640,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Phantom Steed",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -43810,8 +43819,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Polymorph Others",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -43989,8 +43998,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Polymorph Self",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -44183,8 +44192,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Predict Weather",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -44361,8 +44370,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Projected Image",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -44541,8 +44550,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Protection from Evil",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -44721,8 +44730,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Protection from Evil 10' Radius",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -44902,8 +44911,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Protection from Evil 10’ Radius",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -45051,8 +45060,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Protection from Fire and Lightning",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -45226,8 +45235,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Protection from Normal Missiles",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -45414,8 +45423,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Protection from Plants and Animals",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -45634,8 +45643,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Protection from Poison",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -45826,8 +45835,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Purify Food and Water §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -46009,8 +46018,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Quasimorph",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -46189,8 +46198,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Quest",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -46381,8 +46390,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Rainbow Pattern §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -46564,8 +46573,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Raise Dead",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -46744,8 +46753,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Read Languages",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -46924,8 +46933,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Read Magic",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -47104,8 +47113,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Reincarnation",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -47284,8 +47293,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Remove Curse",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -47465,8 +47474,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Remove Fear",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -47645,8 +47654,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Remove Geas",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -47825,8 +47834,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Remove Quest",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -47973,8 +47982,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Resist Cold",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -48161,8 +48170,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Resist Fire",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -48382,8 +48391,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Roots",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -48562,8 +48571,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Rope Trick",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -48741,8 +48750,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Seeming",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -48921,8 +48930,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Shades",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -49101,8 +49110,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Shadow Monsters",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -49304,8 +49313,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Shadowcast",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -49484,8 +49493,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Shadowy Transformation",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -49617,8 +49626,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Shield",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -49860,8 +49869,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Silence 15' Radius §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -50055,8 +50064,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Silence 15’ Radius §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -50238,8 +50247,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Slow Poison",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -50418,8 +50427,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Smother",
     "menu": "ontoken",
     "oseGroup": "Unarmed"
@@ -50599,8 +50608,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Snake Charm",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -50791,8 +50800,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Solid Fog §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -50975,8 +50984,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Song",
     "menu": "ontoken",
     "oseGroup": "Special"
@@ -51156,8 +51165,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Speak with Animals",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -51336,8 +51345,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Speak with Plants",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -51516,8 +51525,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spectral Force",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -51697,8 +51706,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spook",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -51889,8 +51898,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spores §",
     "menu": "ontoken",
     "oseGroup": "Special",
@@ -52072,8 +52081,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Squeeze",
     "menu": "ontoken",
     "oseGroup": "Unarmed"
@@ -52252,8 +52261,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Sticks to Snakes",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -52432,8 +52441,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Stone to Flesh",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -52613,8 +52622,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Striking",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -52794,8 +52803,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Sucker",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -52979,8 +52988,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Suggestion",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -53159,8 +53168,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Summon Animals",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -53337,8 +53346,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Swallow",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -53523,8 +53532,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Swarm",
     "menu": "ontoken",
     "oseGroup": "Special"
@@ -53701,8 +53710,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Telekinesis",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -53893,8 +53902,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Temperature Control §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -54076,8 +54085,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Tentacle",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -54256,8 +54265,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Throttling",
     "menu": "ontoken",
     "oseGroup": "Unarmed"
@@ -54437,8 +54446,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Through the Looking Glass",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -54617,8 +54626,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Time Flow",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -54795,8 +54804,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Tongue",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -54973,8 +54982,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Touch",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -55165,8 +55174,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Transmute Mud to Rock §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -55360,8 +55369,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Transmute Rock to Mud §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -55542,8 +55551,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Tree Shape",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -55734,8 +55743,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Triggered Illusion §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -55920,8 +55929,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "True Seeing",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -56112,8 +56121,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Veil of Abandonment §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -56310,8 +56319,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Ventriloquism",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -56499,8 +56508,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Vision",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -56679,8 +56688,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Visitation",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -56860,8 +56869,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Voice",
     "menu": "ontoken",
     "oseGroup": "Special"
@@ -57052,8 +57061,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Fire §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -57247,8 +57256,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Fog §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -57442,8 +57451,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Ice §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -57637,8 +57646,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Stone §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -57832,8 +57841,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Thorns §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -58030,8 +58039,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Warp Wood",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -58210,8 +58219,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Water Breathing",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -58393,7 +58402,9 @@
    },
    "advanced": {
     "exactMatch": false,
-    "excludedTerms": [],
+    "excludedTerms": [
+     "webbing"
+    ],
     "excludedType": {
      "enabled": false,
      "path": "",
@@ -58402,8 +58413,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Web §",
     "menu": "ontoken",
     "oseGroup": "Spell",
@@ -58585,8 +58596,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Whispering Wind",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -58767,8 +58778,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wizard Eye",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -58947,8 +58958,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wizard Lock",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -59128,8 +59139,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Worm",
     "menu": "ontoken",
     "oseGroup": "Natural"
@@ -59308,8 +59319,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wraithform",
     "menu": "ontoken",
     "oseGroup": "Spell"
@@ -59487,8 +59498,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Acid Fog",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -59667,8 +59678,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Blacklight",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -59860,8 +59871,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath",
     "menu": "templatefx",
     "oseGroup": "Special",
@@ -60041,8 +60052,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Acid)",
     "menu": "templatefx",
     "oseGroup": "Special",
@@ -60222,8 +60233,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Cold)",
     "menu": "templatefx",
     "oseGroup": "Special",
@@ -60403,8 +60414,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Fire)",
     "menu": "templatefx",
     "oseGroup": "Special",
@@ -60584,8 +60595,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Lightning)",
     "menu": "templatefx",
     "oseGroup": "Special",
@@ -60764,8 +60775,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Breath (Poison)",
     "menu": "templatefx",
     "oseGroup": "Special",
@@ -60942,8 +60953,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Call Lightning",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -61118,8 +61129,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Chaos",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -61294,8 +61305,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Cloudkill",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -61472,8 +61483,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Color Spray",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -61650,8 +61661,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Colour Spray",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -61828,9 +61839,189 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Continual Darkness",
+    "menu": "templatefx",
+    "oseGroup": "Spell",
+    "oseTemplate": true
+   }
+  },
+  {
+   "id": "3810dd7626c1f01c",
+   "label": "Continual Light",
+   "macro": {
+    "enable": false,
+    "playWhen": "0"
+   },
+   "menu": "templatefx",
+   "primary": {
+    "options": {
+     "delay": 0,
+     "elevation": 1000,
+     "isMasked": false,
+     "isWait": false,
+     "occlusionAlpha": 0,
+     "occlusionMode": 0,
+     "opacity": 0.5,
+     "persistent": false,
+     "persistType": "attachtemplate",
+     "removeTemplate": false,
+     "repeat": 1,
+     "repeatDelay": 0,
+     "rotate": 0,
+     "scale": "1, 1",
+     "zIndex": 1,
+     "aboveTemplate": false
+    },
+    "sound": {
+     "delay": 0,
+     "enable": true,
+     "file": "psfx.cantrips.light.v1.001",
+     "startTime": 0,
+     "volume": 0.5,
+     "repeat": 1,
+     "repeatDelay": 250
+    },
+    "video": {
+     "dbSection": "templatefx",
+     "menuType": "circle",
+     "animation": "moonbeam",
+     "variant": "loop",
+     "color": "yellow",
+     "enableCustom": true,
+     "customPath": "jb2a.markers.light.nopulse.yellow02"
+    }
+   },
+   "secondary": {
+    "enable": false,
+    "options": {
+     "addTokenWidth": false,
+     "anchor": "0.5",
+     "delay": 250,
+     "elevation": 1000,
+     "fadeIn": 250,
+     "fadeOut": 500,
+     "isMasked": false,
+     "isRadius": true,
+     "isWait": false,
+     "opacity": 1,
+     "repeat": 1,
+     "repeatDelay": 0,
+     "size": 1.5,
+     "zIndex": 1
+    },
+    "sound": {
+     "delay": 0,
+     "enable": false,
+     "file": "",
+     "startTime": 0,
+     "volume": 0.75,
+     "repeat": 1,
+     "repeatDelay": 250
+    },
+    "video": {
+     "dbSection": "static",
+     "menuType": "spell",
+     "animation": "curewounds",
+     "variant": "01",
+     "color": "blue",
+     "enableCustom": false,
+     "customPath": ""
+    }
+   },
+   "soundOnly": {
+    "sound": {
+     "enable": false,
+     "delay": 0,
+     "startTime": 0,
+     "volume": 0.75,
+     "repeat": 1,
+     "repeatDelay": 250
+    }
+   },
+   "source": {
+    "enable": false,
+    "options": {
+     "addTokenWidth": false,
+     "anchor": "0.5",
+     "delay": 0,
+     "elevation": 1000,
+     "fadeIn": 250,
+     "fadeOut": 500,
+     "isMasked": false,
+     "isRadius": false,
+     "isWait": true,
+     "opacity": 1,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "size": 1,
+     "zIndex": 1
+    },
+    "sound": {
+     "delay": 0,
+     "enable": false,
+     "file": "",
+     "startTime": 0,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "volume": 0.75
+    },
+    "video": {
+     "dbSection": "static",
+     "menuType": "spell",
+     "animation": "curewounds",
+     "variant": "01",
+     "color": "blue",
+     "enableCustom": false,
+     "customPath": ""
+    }
+   },
+   "target": {
+    "enable": false,
+    "options": {
+     "addTokenWidth": false,
+     "anchor": "0.5",
+     "delay": 0,
+     "elevation": 1000,
+     "fadeIn": 250,
+     "fadeOut": 500,
+     "isMasked": false,
+     "isWait": false,
+     "isRadius": false,
+     "opacity": 1,
+     "persistent": false,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "size": 1,
+     "unbindAlpha": false,
+     "unbindVisibility": false,
+     "zIndex": 1
+    },
+    "sound": {
+     "delay": 0,
+     "enable": false,
+     "file": "",
+     "startTime": 0,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "volume": 0.75
+    },
+    "video": {
+     "dbSection": "static",
+     "menuType": "spell",
+     "animation": "curewounds",
+     "variant": "01",
+     "color": "blue",
+     "enableCustom": false,
+     "customPath": ""
+    }
+   },
+   "metaData": {
+    "name": "OSE Animations",
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
+    "label": "Continual Light",
     "menu": "templatefx",
     "oseGroup": "Spell",
     "oseTemplate": true
@@ -62006,8 +62197,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Create Water",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -62184,8 +62375,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Darkness",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -62365,8 +62556,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Death Spell",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -62543,8 +62734,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Emotion",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -62721,8 +62912,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Entangle",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -62913,8 +63104,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Faerie Fire",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -63093,8 +63284,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Fear",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -63286,8 +63477,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Growth of Nature",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -63479,8 +63670,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Growth of Plants",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -63656,8 +63847,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hallucinatory Terrain",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -63837,8 +64028,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Hypnotic Pattern",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -64014,12 +64205,212 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Insect Plague",
     "menu": "templatefx",
     "oseGroup": "Spell",
     "oseTemplate": true
+   }
+  },
+  {
+   "id": "9914a0ce04a7b7b6",
+   "label": "Light",
+   "macro": {
+    "enable": false,
+    "playWhen": "0"
+   },
+   "menu": "templatefx",
+   "primary": {
+    "options": {
+     "delay": 0,
+     "elevation": 1000,
+     "isMasked": false,
+     "isWait": false,
+     "occlusionAlpha": 0,
+     "occlusionMode": 0,
+     "opacity": 0.5,
+     "persistent": false,
+     "persistType": "attachtemplate",
+     "removeTemplate": false,
+     "repeat": 1,
+     "repeatDelay": 0,
+     "rotate": 0,
+     "scale": "1, 1",
+     "zIndex": 1,
+     "aboveTemplate": false
+    },
+    "sound": {
+     "delay": 0,
+     "enable": true,
+     "file": "psfx.cantrips.light.v1.001",
+     "startTime": 0,
+     "volume": 0.5,
+     "repeat": 1,
+     "repeatDelay": 250
+    },
+    "video": {
+     "dbSection": "templatefx",
+     "menuType": "circle",
+     "animation": "moonbeam",
+     "variant": "loop",
+     "color": "yellow",
+     "enableCustom": true,
+     "customPath": "jb2a.markers.light.nopulse.yellow02"
+    }
+   },
+   "secondary": {
+    "enable": false,
+    "options": {
+     "addTokenWidth": false,
+     "anchor": "0.5",
+     "delay": 250,
+     "elevation": 1000,
+     "fadeIn": 250,
+     "fadeOut": 500,
+     "isMasked": false,
+     "isRadius": true,
+     "isWait": false,
+     "opacity": 1,
+     "repeat": 1,
+     "repeatDelay": 0,
+     "size": 1.5,
+     "zIndex": 1
+    },
+    "sound": {
+     "delay": 0,
+     "enable": false,
+     "file": "",
+     "startTime": 0,
+     "volume": 0.75,
+     "repeat": 1,
+     "repeatDelay": 250
+    },
+    "video": {
+     "dbSection": "static",
+     "menuType": "spell",
+     "animation": "curewounds",
+     "variant": "01",
+     "color": "blue",
+     "enableCustom": false,
+     "customPath": ""
+    }
+   },
+   "soundOnly": {
+    "sound": {
+     "enable": false,
+     "delay": 0,
+     "startTime": 0,
+     "volume": 0.75,
+     "repeat": 1,
+     "repeatDelay": 250
+    }
+   },
+   "source": {
+    "enable": false,
+    "options": {
+     "addTokenWidth": false,
+     "anchor": "0.5",
+     "delay": 0,
+     "elevation": 1000,
+     "fadeIn": 250,
+     "fadeOut": 500,
+     "isMasked": false,
+     "isRadius": false,
+     "isWait": true,
+     "opacity": 1,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "size": 1,
+     "zIndex": 1
+    },
+    "sound": {
+     "delay": 0,
+     "enable": false,
+     "file": "",
+     "startTime": 0,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "volume": 0.75
+    },
+    "video": {
+     "dbSection": "static",
+     "menuType": "spell",
+     "animation": "curewounds",
+     "variant": "01",
+     "color": "blue",
+     "enableCustom": false,
+     "customPath": ""
+    }
+   },
+   "target": {
+    "enable": false,
+    "options": {
+     "addTokenWidth": false,
+     "anchor": "0.5",
+     "delay": 0,
+     "elevation": 1000,
+     "fadeIn": 250,
+     "fadeOut": 500,
+     "isMasked": false,
+     "isWait": false,
+     "isRadius": false,
+     "opacity": 1,
+     "persistent": false,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "size": 1,
+     "unbindAlpha": false,
+     "unbindVisibility": false,
+     "zIndex": 1
+    },
+    "sound": {
+     "delay": 0,
+     "enable": false,
+     "file": "",
+     "startTime": 0,
+     "repeat": 1,
+     "repeatDelay": 250,
+     "volume": 0.75
+    },
+    "video": {
+     "dbSection": "static",
+     "menuType": "spell",
+     "animation": "curewounds",
+     "variant": "01",
+     "color": "blue",
+     "enableCustom": false,
+     "customPath": ""
+    }
+   },
+   "metaData": {
+    "name": "OSE Animations",
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
+    "label": "Light",
+    "menu": "templatefx",
+    "oseGroup": "Spell",
+    "oseTemplate": true
+   },
+   "advanced": {
+    "exactMatch": false,
+    "excludedTerms": [
+     "mace",
+     "hammer",
+     "pick",
+     "crossbow",
+     "horse",
+     "lance",
+     "flail",
+     "armour",
+     "armor",
+     "lightning"
+    ],
+    "excludedType": {
+     "enabled": false,
+     "path": "",
+     "property": ""
+    }
    }
   },
   {
@@ -64193,8 +64584,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Lightning Bolt",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -64386,8 +64777,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Lower Water",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -64563,8 +64954,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Major Creation",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -64740,8 +65131,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Minor Creation",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -64919,8 +65310,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Obscuring Mist",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -65112,8 +65503,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Part Water",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -65289,8 +65680,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Permanent Illusion",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -65467,8 +65858,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Purify Food and Water",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -65650,8 +66041,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Rainbow Pattern",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -65829,8 +66220,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Silence 15' Radius",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -66008,8 +66399,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Silence 15’ Radius",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -66189,8 +66580,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Solid Fog",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -66368,8 +66759,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Spores",
     "menu": "templatefx",
     "oseGroup": "Special",
@@ -66560,8 +66951,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Temperature Control",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -66753,8 +67144,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Transmute Mud to Rock",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -66946,8 +67337,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Transmute Rock to Mud",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -67123,8 +67514,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Triggered Illusion",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -67300,8 +67691,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Veil of Abandonment",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -67480,8 +67871,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Fire",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -67659,8 +68050,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Fog",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -67851,8 +68242,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Ice",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -68043,8 +68434,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Stone",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -68235,8 +68626,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Wall of Thorns",
     "menu": "templatefx",
     "oseGroup": "Spell",
@@ -68413,12 +68804,23 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Web",
     "menu": "templatefx",
     "oseGroup": "Spell",
     "oseTemplate": true
+   },
+   "advanced": {
+    "exactMatch": false,
+    "excludedTerms": [
+     "webbing"
+    ],
+    "excludedType": {
+     "enabled": false,
+     "path": "",
+     "property": ""
+    }
    }
   }
  ],
@@ -68521,8 +68923,8 @@
    "menu": "preset",
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Dimension Door",
     "menu": "preset",
     "oseGroup": "Spell"
@@ -68730,8 +69132,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Fire Ball",
     "menu": "preset",
     "oseGroup": "Spell",
@@ -68920,8 +69322,10 @@
     }
    },
    "advanced": {
-    "exactMatch": true,
-    "excludedTerms": [],
+    "exactMatch": false,
+    "excludedTerms": [
+     "sleeping"
+    ],
     "excludedType": {
      "enabled": false,
      "path": "",
@@ -68930,8 +69334,8 @@
    },
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Sleep",
     "menu": "preset",
     "oseGroup": "Spell",
@@ -69032,8 +69436,8 @@
    "menu": "preset",
    "metaData": {
     "name": "OSE Animations",
-    "moduleVersion": "1.3.0",
-    "version": 1003000,
+    "moduleVersion": "1.3.1",
+    "version": 1003001,
     "label": "Teleport",
     "menu": "preset",
     "oseGroup": "Spell"

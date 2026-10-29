@@ -76,6 +76,10 @@
 				"name": "Roll Saves and Apply Damage in Areas",
 				"hint": "After an area spell or breath weapon's template is placed, the GM's client rolls a save for every creature inside, rolls the damage, and applies full, half or no damage to their hit points (or the spell's effect). Results are posted in one chat card. Needs a GM logged in."
 			},
+			"createLights": {
+				"name": "Light Spells Create Light",
+				"hint": "Light and Continual Light ask where they're cast: at a spot (place the area, and a light source appears there) or on a creature or object (that token gives off the light). The GM's client creates the light. Delete it from the Lighting layer, or the token's Light settings, when the spell ends."
+			},
 			"reviewAreas": {
 				"name": "GM Reviews Area Results",
 				"hint": "Before anything is applied, the GM gets a window at each step: setup (the rules, who's affected, save modifiers), saves (change rolls or force results), and damage (change the total or any creature's amount). Turn off to apply everything as rolled."
@@ -168,6 +172,12 @@
 			"cancelled": "{name}: cancelled; nothing was applied.",
 			"waiting": "{name}: waiting for the GM to resolve saves and damage.",
 			"damageFormula": "Damage"
+		},
+		"lights": {
+			"where": "Cast it at a spot, or on a creature or object (the target, or the caster if nothing is targeted)?",
+			"spot": "At a spot",
+			"token": "On a creature or object",
+			"noGM": "No GM is logged in, so {name} couldn't create its light. Ask the GM to add it."
 		}
 	}
 }

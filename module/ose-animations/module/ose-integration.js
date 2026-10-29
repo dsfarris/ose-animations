@@ -111,6 +111,33 @@ Hooks.once("ready", () => {
 		};
 	}
 
+	// The Enhanced Character Sheet (osc-character-sheet) has quick "ATK" buttons that roll a bare d20 and post
+	// their own card ("Attack" + weapon name + HIT/MISS), without OSE or an item link, so Automated Animations
+	// can't see them. Find the attack by name on the speaker and play it here; a breath places its area and
+	// resolves instead.
+	Hooks.on("createChatMessage", async (msg) => {
+		if (msg.author?.id !== game.user.id || !msg.flags?.["osc-character-sheet"]) return;
+		const dom = chatDom(msg);
+		const title = dom.querySelector(".rc-title")?.textContent?.trim();
+		const weapon = dom.querySelector(".rc-weapon")?.textContent?.trim();
+		if (title !== "Attack" || !weapon) return;
+		const token = (msg.speaker?.token && canvas.tokens?.get(msg.speaker.token))
+			|| canvas.tokens?.controlled.find((t) => t.actor?.id === msg.speaker?.actor)
+			|| canvas.tokens?.placeables.find((t) => t.actor?.id === msg.speaker?.actor);
+		const item = token?.actor?.items.find((i) => i.name === weapon);
+		if (!item) return;
+		if (oseAnimations.breathsFor?.(item).length && await oseAnimations.useBreath(item)) return;
+		const targets = Array.from(game.user.targets);
+		const verdict = dom.querySelector(".rc-verdict");
+		const options = { targets };
+		if (verdict && setting("playMisses")) {
+			options.playOnMiss = true;
+			options.hitTargets = verdict.classList.contains("is-hit") ? targets : [];
+		}
+		debug("Enhanced Character Sheet attack", weapon, options);
+		AutomatedAnimations.playAnimation(token, item, options);
+	});
+
 	// OSE formula rolls name the Item (or whichever token is selected) as the speaker. Name the caster.
 	Hooks.on("preCreateChatMessage", (msg) => {
 		const dom = chatDom(msg);
@@ -148,7 +175,8 @@ Hooks.once("ready", () => {
 			data.item = null;
 			return;
 		}
-		if (kind === "card" && data.item && !CARD_TYPES.includes(data.item.type)) {
+		// Weapon cards are only shown, not used, except a weapon-type breath posted while it's being used.
+		if (kind === "card" && data.item && !CARD_TYPES.includes(data.item.type) && !oseAnimations.animFor?.(data.item)) {
 			debug("skipping item card for", data.item.type, data.item.name);
 			data.item = null;
 			return;

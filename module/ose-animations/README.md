@@ -53,6 +53,9 @@ Animations you made yourself are never overwritten: an entry with the same name 
   2. **Saves:** change any roll or target number, or force Saved or Failed.
   3. **Damage:** change the total (amounts you haven't edited follow it) or any creature's amount.
   - **Next** goes to the next step, **Apply as rolled** accepts everything from there on, and **Cancel** stops with nothing applied. The results card says "Adjusted by the GM" when anything was changed. A player casting waits while the GM reviews.
+- **Light and Continual Light create real light.** When cast, choose *At a spot* (place the area, and a light source appears there, 15' or 30') or *On a creature or object* (the target, or the caster, gives off the light). The GM's client creates it. Delete it from the Lighting layer, or the token's Light settings, when the spell ends.
+- **Enhanced Character Sheet** (`osc-character-sheet`): its monster ATK buttons and character Attack buttons animate too, and a weapon-type breath (the Red Dragon's "Breath") places its cone and resolves from ATK. That sheet counts attacks per round, so ATK greys out once a monster's attacks are used; *New round* resets it.
+- On OSE's own monster sheet, a dragon's breath can be used by clicking its picture (or the eye icon).
 - Area animations without a template are sized in feet and rescaled to the scene's grid, so 10 ft dungeon squares work.
 - Formula spells (Magic Missile, Cure Light Wounds…) are posted under the caster's name, even when another token is selected.
 

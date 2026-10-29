@@ -52,6 +52,14 @@ Hooks.once("init", () => {
 		type: Boolean,
 		default: true
 	});
+	game.settings.register(MODULE_ID, "createLights", {
+		scope: "world",
+		config: true,
+		name: t("createLights.name"),
+		hint: t("createLights.hint"),
+		type: Boolean,
+		default: true
+	});
 	game.settings.register(MODULE_ID, "reviewAreas", {
 		scope: "world",
 		config: true,

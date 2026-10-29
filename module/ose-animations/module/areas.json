@@ -693,6 +693,18 @@
    ]
   }
  ],
+ "lights": {
+  "Light": {
+   "radius": 15,
+   "color": "#fff1c4",
+   "note": "6 turns + 1 per caster level"
+  },
+  "Continual Light": {
+   "radius": 30,
+   "color": "#fff8e6",
+   "note": "permanent"
+  }
+ },
  "noTemplate": [
   "Create Water",
   "Detect Evil",
@@ -718,6 +730,7 @@
   "Color Spray",
   "Colour Spray",
   "Continual Darkness",
+  "Continual Light",
   "Create Water",
   "Darkness",
   "Death Spell",
@@ -731,6 +744,7 @@
   "Hallucinatory Terrain",
   "Hypnotic Pattern",
   "Insect Plague",
+  "Light",
   "Lightning Bolt",
   "Lower Water",
   "Major Creation",

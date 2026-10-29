@@ -18,7 +18,7 @@
 | Cure Serious Wounds | Cure Wounds | Equivalent | Cure Wounds | ontoken | Upcast Cure Wounds. |
 | Detect Evil | Detect Evil and Good | Equivalent | Concentrating: Detect Magic | ontoken |  |
 | Detect Magic | Detect Magic | Identical | Concentrating: Detect Magic | ontoken |  |
-| Light | Light | Identical | Light | ontoken | Reverse (Darkness) has its own entry. |
+| Light | Light | Identical | Daylight | templatefx + template | Reverse (Darkness) has its own entry. Creates a light source (see LIGHTS in areas.py). |
 | Protection from Evil | Protection from Evil and Good | Equivalent | Protection from Evil and Good | ontoken |  |
 | Purify Food and Water | Purify Food and Drink | Equivalent | Purify Food and Drink | templatefx + template |  |
 | Remove Fear | Heroism | Similar | Heroism | ontoken | Closest 5e effects: Heroism, Calm Emotions. |
@@ -32,7 +32,7 @@
 | Silence 15' Radius | Silence | Equivalent | Silence | templatefx + template |  |
 | Snake Charm | Animal Friendship | Similar | Animal Friendship | ontoken |  |
 | Speak with Animals | Speak with Animals | Identical | Speak with Animals | ontoken |  |
-| Continual Light | Daylight | Equivalent | Continual Flame | ontoken | Also close to Continual Flame. |
+| Continual Light | Daylight | Equivalent | Daylight | templatefx + template | Creates a permanent light source (see LIGHTS in areas.py). |
 | Continual Darkness | Darkness | Similar | Darkness | templatefx + template |  |
 | Cure Disease | Lesser Restoration | Equivalent | Restoration | ontoken |  |
 | Cause Disease | Contagion | Equivalent | Contagion | range |  |

@@ -147,6 +147,13 @@ BREATHS = [
     {"match": "iron golem", "options": [{"label": "Poison gas", "anim": "Breath (Poison)", "shape": "rect", "side": 10, "save": "death", "onFail": "die", "effect": "dies", "type": "poison"}]},
 ]
 
+# Spells that create a light source. Cast at a spot (a light at the template's centre) or on a creature
+# or object (that token gives off the light). Radius in feet, from the spell text.
+LIGHTS = {
+    "Light": {"radius": 15, "color": "#fff1c4", "note": "6 turns + 1 per caster level"},
+    "Continual Light": {"radius": 30, "color": "#fff8e6", "note": "permanent"},
+}
+
 # Spells that are single-target or have no area in OSE, even though 5e or D&D5e Animations treat them as areas.
 NO_TEMPLATE = {"Sleep", "Faerie Fire", "Detect Magic", "Detect Evil", "Purify Food and Water", "Create Water",
                "Minor Creation", "Major Creation"}
