@@ -8,7 +8,41 @@
 const MODULE_ID = "ose-animations";
 const rinse = (s) => String(s ?? "").replace(/\s+/g, "").replace(/[’‘]/g, "'").toLowerCase();
 
-const table = { areas: new Map(), resolve: new Map(), lights: new Map(), breaths: [], noTemplate: new Set(), templateLabels: new Set() };
+const table = { areas: new Map(), resolve: new Map(), lights: new Map(), lasting: new Map(), breaths: [], noTemplate: new Set(), templateLabels: new Set() };
+const LASTING_PREFIX = "ose-anim-lasting";
+
+/**
+ * A lasting spell visual (Floating Disc) attached beside the caster's token, so it follows them.
+ * Persisted by Sequencer with the scene; ended with oseAnimations.endSpellEffects.
+ */
+async function startLasting(item, token) {
+	const cfg = table.lasting.get(rinse(item.name));
+	if (!cfg || !token || !globalThis.Sequence) return;
+	const name = `${LASTING_PREFIX}|${item.name}|${token.id}`;
+	// Recasting replaces the old one.
+	if (lastingEffects(token).some((e) => e.name === name)) await oseAnimations.endSpellEffects?.(token, [name]);
+	const gs = canvas.grid.size;
+	new Sequence({ moduleName: MODULE_ID })
+		.effect()
+		.file(cfg.file)
+		.attachTo(token, { offset: { x: cfg.offset * gs, y: 0 }, bindRotation: false, bindAlpha: false })
+		.size(cfg.size, { gridUnits: true })
+		.scale({ x: 1, y: cfg.scaleY ?? 1 })
+		.opacity(cfg.opacity ?? 1)
+		.loopProperty("sprite", "position.y", { from: -(cfg.bob ?? 0), to: cfg.bob ?? 0, duration: 1600, pingPong: true, ease: "easeInOutSine" })
+		.fadeIn(500)
+		.fadeOut(500)
+		.persist()
+		.name(name)
+		.play();
+}
+
+/** Lasting OSE Animations effects on a token: [{name, spell}]. */
+function lastingEffects(token) {
+	return Sequencer.EffectManager.getEffects({ object: token })
+		.filter((e) => String(e.data?.name ?? "").startsWith(LASTING_PREFIX))
+		.map((e) => ({ name: e.data.name, spell: e.data.name.split("|")[1] }));
+}
 // The template placed for the current cast, and whether its animation already played.
 const current = { id: null, sceneId: null, itemId: null, manual: false, time: 0, usedAt: 0, animLabel: null };
 // Spells cast through spendSpell, by item uuid. Posting a spell to chat without casting it shouldn't animate.
@@ -217,6 +251,7 @@ Hooks.once("ready", async () => {
 		for (const [name, area] of Object.entries(data.areas)) table.areas.set(rinse(name), area);
 		for (const [name, spec] of Object.entries(data.resolve ?? {})) table.resolve.set(rinse(name), spec);
 		for (const [name, light] of Object.entries(data.lights ?? {})) table.lights.set(rinse(name), light);
+		for (const [name, cfg] of Object.entries(data.lasting ?? {})) table.lasting.set(rinse(name), cfg);
 		table.breaths = data.breaths ?? [];
 		data.noTemplate.forEach((n) => table.noTemplate.add(rinse(n)));
 		data.templateLabels.forEach((n) => table.templateLabels.add(rinse(n)));
@@ -266,6 +301,11 @@ Hooks.once("ready", async () => {
 		const placed = await placeTemplateFor(this);
 		casts.set(this.uuid, Date.now());
 		const spec = resolveFor(this.name);
+		if (table.lasting.has(rinse(this.name))) {
+			const result = await spendSpell.apply(this, args);
+			await startLasting(this, casterToken(this));
+			return result;
+		}
 		if (!automate(placed, spec)) return spendSpell.apply(this, args);
 		await this.update({ "system.cast": (this.system.cast ?? 0) - 1 });
 		await show.call(this, { skipDialog: true });
@@ -340,4 +380,4 @@ Hooks.once("ready", async () => {
 });
 
 globalThis.oseAnimations ??= {};
-Object.assign(globalThis.oseAnimations, { areaFor, resolveFor, breathsFor, animFor, hasTemplateAnimation, placeTemplateFor, placeBreath, templateFor, wasJustCast, currentTemplate: current });
+Object.assign(globalThis.oseAnimations, { startLasting, lastingEffects, areaFor, resolveFor, breathsFor, animFor, hasTemplateAnimation, placeTemplateFor, placeBreath, templateFor, wasJustCast, currentTemplate: current });

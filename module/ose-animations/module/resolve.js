@@ -388,6 +388,25 @@ async function createLight({ name, light, sceneId, x, y, tokenUuid }) {
 	return { light: doc?.id };
 }
 
+// Ending a lasting spell effect. Sequencer only lets Assistants and GMs delete effects by default, so a
+// player's request is run by the GM's client.
+function endEffectsGM(names) {
+	for (const name of names ?? []) Sequencer.EffectManager.endEffects({ name });
+	return true;
+}
+
+/** End lasting spell effects on a token (all of them, or only the named ones). */
+async function endSpellEffects(token, names = null) {
+	const list = names ?? oseAnimations.lastingEffects?.(token).map((e) => e.name) ?? [];
+	if (!list.length) return false;
+	if (game.user.isGM || game.user.role >= (game.settings.get("sequencer", "permissions-effect-delete") ?? 4) + 1) return endEffectsGM(list);
+	if (!game.users.activeGM || !socket) {
+		ui.notifications.warn(t("lasting.noGM"));
+		return false;
+	}
+	return socket.executeAsGM("endEffects", list);
+}
+
 /** Called on the caster's client. */
 async function requestLight(payload) {
 	if (game.user.isGM) return createLight(payload);
@@ -402,7 +421,8 @@ Hooks.once("socketlib.ready", () => {
 	socket = socketlib.registerModule(MODULE_ID);
 	socket.register("resolveArea", resolveArea);
 	socket.register("createLight", createLight);
+	socket.register("endEffects", endEffectsGM);
 });
 
 globalThis.oseAnimations ??= {};
-Object.assign(globalThis.oseAnimations, { requestResolution, resolveArea, requestLight, levelOf });
+Object.assign(globalThis.oseAnimations, { requestResolution, resolveArea, requestLight, endSpellEffects, levelOf });

@@ -8,7 +8,7 @@ Automated Animations presets for **Old-School Essentials** in Foundry VTT v14. I
 - **Unarmed:** punch, fist, kick, grab, constrict and others. An attack made with no weapon plays as an unarmed strike.
 - **Natural attacks:** bite, claw, talon, beak, gore, horn, tusk, hoof, trample, tail, sting, pincer, tentacle, touch and more.
 - **Monster specials:** breath weapons (the dragon's type picks fire, cold, lightning, acid or poison), spit, spores, swarm, gaze, eye rays.
-- **Macros** (compendium "OSE Animations Macros"): Open Update Menu, Open Automatic Recognition Menu, Export Autorec JSON, Preview Animation.
+- **Macros** (compendium "OSE Animations Macros"): Open Update Menu, Open Automatic Recognition Menu, Export Autorec JSON, Preview Animation, End Spell Effects.
 
 ## Requirements
 - Foundry VTT v14, Old-School Essentials system 3.0+
@@ -54,6 +54,7 @@ Animations you made yourself are never overwritten: an entry with the same name 
   3. **Damage:** change the total (amounts you haven't edited follow it) or any creature's amount.
   - **Next** goes to the next step, **Apply as rolled** accepts everything from there on, and **Cancel** stops with nothing applied. The results card says "Adjusted by the GM" when anything was changed. A player casting waits while the GM reviews.
 - **Light and Continual Light create real light.** When cast, choose *At a spot* (place the area, and a light source appears there, 15' or 30') or *On a creature or object* (the target, or the caster, gives off the light). The GM's client creates it. Delete it from the Lighting layer, or the token's Light settings, when the spell ends.
+- **Floating Disc** leaves a glowing disc floating beside the caster that follows them until the spell ends. OSE doesn't track durations, so end it with the **End Spell Effects** macro (select the caster's token and run it). Track what the disc carries in a note: OSE counts container contents toward the carrier's load.
 - **Enhanced Character Sheet** (`osc-character-sheet`): its monster ATK buttons and character Attack buttons animate too, and a weapon-type breath (the Red Dragon's "Breath") places its cone and resolves from ATK. That sheet counts attacks per round, so ATK greys out once a monster's attacks are used; *New round* resets it.
 - On OSE's own monster sheet, a dragon's breath can be used by clicking its picture (or the eye icon).
 - Area animations without a template are sized in feet and rescaled to the scene's grid, so 10 ft dungeon squares work.

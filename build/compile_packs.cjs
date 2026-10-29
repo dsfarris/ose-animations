@@ -12,6 +12,7 @@ const ICONS = {
 	"Open Automatic Recognition Menu": "icons/svg/book.svg",
 	"Export Autorec JSON": "icons/svg/down.svg",
 	"Preview Animation": "icons/svg/explosion.svg",
+	"End Spell Effects": "icons/svg/cancel.svg",
 };
 
 function docId(name) {

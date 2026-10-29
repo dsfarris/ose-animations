@@ -705,6 +705,17 @@
    "note": "permanent"
   }
  },
+ "lasting": {
+  "Floating Disc": {
+   "file": "jb2a.energy_field.01.blue",
+   "size": 0.75,
+   "offset": 0.85,
+   "scaleY": 0.55,
+   "opacity": 0.85,
+   "bob": 4,
+   "note": "6 turns; carries up to 5,000 coins"
+  }
+ },
  "noTemplate": [
   "Create Water",
   "Detect Evil",

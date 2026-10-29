@@ -178,6 +178,9 @@
 			"spot": "At a spot",
 			"token": "On a creature or object",
 			"noGM": "No GM is logged in, so {name} couldn't create its light. Ask the GM to add it."
+		},
+		"lasting": {
+			"noGM": "No GM is logged in, so the spell effect couldn't be ended. Ask the GM to end it."
 		}
 	}
 }

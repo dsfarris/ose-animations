@@ -154,6 +154,14 @@ LIGHTS = {
     "Continual Light": {"radius": 30, "color": "#fff8e6", "note": "permanent"},
 }
 
+# Spells that leave a lasting visual on the caster while they last (Sequencer effect attached to the token,
+# so it follows them). Ended with the "End Spell Effects" macro. Sizes in grid squares.
+#   offset  distance beside the token, in squares   scaleY  flatten to look level   bob  float up and down (px)
+LASTING = {
+    "Floating Disc": {"file": "jb2a.energy_field.01.blue", "size": 0.75, "offset": 0.85, "scaleY": 0.55,
+                      "opacity": 0.85, "bob": 4, "note": "6 turns; carries up to 5,000 coins"},
+}
+
 # Spells that are single-target or have no area in OSE, even though 5e or D&D5e Animations treat them as areas.
 NO_TEMPLATE = {"Sleep", "Faerie Fire", "Detect Magic", "Detect Evil", "Purify Food and Water", "Create Water",
                "Minor Creation", "Major Creation"}

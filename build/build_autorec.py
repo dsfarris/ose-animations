@@ -23,7 +23,7 @@ META_NAME = "OSE Animations"
 sys.path.insert(0, str(Path(__file__).parent))
 from spell_map import S, ALIASES as SPELL_ALIASES, EXCLUDED_TERMS  # noqa: E402
 from attack_map import A, ALIASES as ATTACK_ALIASES  # noqa: E402
-from areas import AREAS, BREATHS, LIGHTS, NO_TEMPLATE, RESOLVE, radius_ft  # noqa: E402
+from areas import AREAS, BREATHS, LASTING, LIGHTS, NO_TEMPLATE, RESOLVE, radius_ft  # noqa: E402
 
 MENUS = ["melee", "range", "ontoken", "templatefx", "preset", "aura", "aefx"]
 NT = " §"  # suffix of the token-based twin of a template spell (no letters, so it never matches a real name)
@@ -356,12 +356,13 @@ if __name__ == "__main__":
                 resolve[alias] = RESOLVE[name]
     unknown = [n for n in AREAS if n.lower() not in b.labels]
     unknown += [f"resolve:{n}" for n in RESOLVE if n not in AREAS]
+    unknown += [f"lasting video:{v['file']}" for v in LASTING.values() if v["file"] not in b.prefixes]
     unknown += [f"breath anim:{o['anim']}" for br in BREATHS for o in br["options"] if o["anim"].lower() not in b.labels]
     if unknown:
         print("areas without an animation entry:", unknown)
         sys.exit(1)
     (MOD / "module" / "areas.json").write_text(json.dumps(
-        {"areas": areas, "resolve": resolve, "breaths": BREATHS, "lights": LIGHTS, "noTemplate": sorted(NO_TEMPLATE), "templateLabels": template_labels},
+        {"areas": areas, "resolve": resolve, "breaths": BREATHS, "lights": LIGHTS, "lasting": LASTING, "noTemplate": sorted(NO_TEMPLATE), "templateLabels": template_labels},
         indent=1, ensure_ascii=False), encoding="utf-8")
     (ROOT / "data" / "spell_report.json").write_text(json.dumps(b.report, indent=1), encoding="utf-8")
     counts = {m: len(b.out[m]) for m in MENUS}
